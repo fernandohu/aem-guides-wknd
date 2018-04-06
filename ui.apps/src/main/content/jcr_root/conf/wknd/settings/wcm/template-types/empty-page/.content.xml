@@ -4,7 +4,7 @@
     jcr:primaryType="cq:Template"
     ranking="{Long}1">
     <jcr:content
-        jcr:description="Generic template for web pages"
+        jcr:description="Template type genérico"
         jcr:primaryType="cq:PageContent"
-        jcr:title="WKND Empty Page"/>
+        jcr:title="Página vazia"/>
 </jcr:root>
