@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-05T21:13:06.235-03:00"
+        cq:lastModified="{Date}2018-04-09T11:57:23.057-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-template-page"
         jcr:primaryType="cq:PageContent"
@@ -18,10 +18,100 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text_1847759589
+                    jcr:created="{Date}2018-04-09T11:48:45.800-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-09T11:52:24.939-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Aenean aliquam molestie leo, vitae iaculis nisl.&lt;/p>&#xd;&#xa;&lt;p>Per aumento de cachacis, eu reclamis. Casamentiss faiz malandris se pirulitá. Detraxit consequat et quo num tendi nada. A ordem dos tratores não altera o pão duris.&lt;/p>&#xd;&#xa;&lt;p>Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Suco de cevadiss deixa as pessoas mais interessantis.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1847759589>
+                <text_1809352257
+                    jcr:created="{Date}2018-04-09T11:49:05.081-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-09T11:50:05.992-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis santis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Delegadis gente finis, bibendum egestas augue arcu ut est.&lt;/p>&#xa;&lt;p>Mé faiz elementum girarzis, nisi eros vermeio. In elementis mé pra quem é amistosis quis leo. Interagi no mé, cursus quis, vehicula ac nisi. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!&lt;/p>&#xa;&lt;p>Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Quem num gosta di mé, boa gentis num é. Pra lá , depois divoltis porris, paradis. Manduma pindureta quium dia nois paga.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1809352257>
+                <image
+                    jcr:created="{Date}2018-04-09T11:51:07.175-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-09T11:54:36.515-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Mario and Luigi"
+                    displayPopupTitle="true"
+                    fileName="mario.jpeg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image>
+                <image_1706725558
+                    jcr:created="{Date}2018-04-09T11:51:09.693-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-09T11:54:55.596-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Yoshi"
+                    displayPopupTitle="true"
+                    fileName="download.jpeg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image_1706725558>
+                <image_1047075636
+                    jcr:created="{Date}2018-04-09T11:51:12.293-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-09T11:55:08.722-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Nintendo Character"
+                    displayPopupTitle="true"
+                    fileName="images.jpeg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image_1047075636>
                 <text
                     jcr:created="{Date}2018-04-05T21:12:44.382-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-04-05T21:13:06.233-03:00"
+                    jcr:lastModified="{Date}2018-04-09T11:48:40.247-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/text"
