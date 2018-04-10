@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/casey-horner-353950.jpg"
-        jcr:lastModified="{Date}2018-02-04T13:44:38.675-05:00"
+        jcr:lastModified="{Date}2018-04-10T10:45:38.549-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-01-04T15:54:24.220-05:00"
+            dam:extracted="{Date}2018-04-10T10:45:38.399-03:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,7 +25,7 @@
             dam:Physicalwidthininches="{Decimal}42.40277862548828"
             dam:Progressive="no"
             dam:sha1="04d66bb477f58bfd1f606ef0a3b8dc01d2cbfa90"
-            dam:size="{Long}3595170"
+            dam:size="{Long}3598164"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:38.481-05:00"
             jcr:lastModified="{Date}2018-02-04T13:44:38.481-05:00"
