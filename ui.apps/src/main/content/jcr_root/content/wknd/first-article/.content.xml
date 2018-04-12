@@ -2,11 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-10T12:26:12.016-03:00"
+        cq:lastModified="{Date}2018-04-11T22:46:44.309-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-template-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="First Article"
+        jcr:title="website"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -18,20 +18,44 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <title
-                    cq:styleIds="[1523368812619]"
-                    jcr:created="{Date}2018-04-10T11:02:29.078-03:00"
+                <list
+                    cq:styleIds="[1523490530387]"
+                    jcr:created="{Date}2018-04-11T22:00:06.394-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-04-10T12:26:11.980-03:00"
+                    jcr:lastModified="{Date}2018-04-11T22:36:19.578-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Mario and Luigi Title"
-                    sling:resourceType="wknd/components/content/title"
-                    type="h1"/>
+                    sling:resourceType="wknd/components/content/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="static"
+                    pages="/content/wknd/first-article/page-inside"
+                    parentPage="/content/wknd/first-article/page-inside"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <list_1560292984
+                    cq:styleIds="[1523490530387]"
+                    jcr:created="{Date}2018-04-11T22:04:33.586-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-11T22:32:34.628-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="static"
+                    pages="/content/wknd/first-article/page-inside"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
                 <text_203652793
+                    cq:styleIds="[1523369563449]"
                     jcr:created="{Date}2018-04-10T11:13:16.905-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-04-10T11:16:18.063-03:00"
+                    jcr:lastModified="{Date}2018-04-11T21:55:58.453-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/text"
@@ -137,6 +161,13 @@
                     <file/>
                 </image_1047075636>
             </responsivegrid>
+            <title
+                jcr:lastModified="{Date}2018-04-11T22:46:44.304-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Real Madrid X Juventus"
+                sling:resourceType="wknd/components/content/title"/>
         </root>
     </jcr:content>
+    <page-inside/>
 </jcr:root>

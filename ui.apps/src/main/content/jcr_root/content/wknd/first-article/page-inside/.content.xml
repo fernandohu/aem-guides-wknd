@@ -2,8 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2018-04-11T21:59:51.109-03:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-template-page"
         jcr:primaryType="cq:PageContent"
+        jcr:title="Page inside"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
