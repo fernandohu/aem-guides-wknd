@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:template="/apps/we-retail-client-app/templates/list-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Profile"
+        sling:resourceType="we-retail-client-app/components/structure/profile-page">
+        <content-par
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <profileImage
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/content/profile/image"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>

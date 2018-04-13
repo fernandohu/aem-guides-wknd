@@ -1,0 +1,10 @@
+{
+    "server": "http://localhost:4502",
+    "device": "",
+    "user": "",
+    "password": "",
+    "resolution": "auto",
+    "enableAdminUI": true,
+    "enableOSD": true,
+    "enableRemoteInspect": false
+}

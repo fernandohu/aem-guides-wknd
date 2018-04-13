@@ -19,7 +19,7 @@
                         sling:resourceType="granite/ui/components/coral/foundation/container"
                         margin="{Boolean}true">
                         <items jcr:primaryType="nt:unstructured">
-                           <rootpath
+                            <rootpath
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                 fieldDescription="Populate the link of the WKND logo"

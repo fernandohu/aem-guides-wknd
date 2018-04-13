@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4240272b-4721-4406-b8c0-54d6c9aacac8">
+    <jcr:content
+        dam:relativePath="formsanddocuments-themes/themeLibrary/simpleEnrollmentTheme"
+        jcr:lastModified="{Date}2016-07-04T18:19:28.628+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/theme/render"
+        theme="1">
+        <metadata
+            dc:format="application/octet-stream"
+            fd:targetVersion="1.1"
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            clientlibCategory="fdtheme.themeLibrary.simpleEnrollmentTheme"
+            clientlibRef="/etc/clientlibs/fd/themes/themeLibrary"
+            description="Simple Enrollment Theme"
+            title="Simple Enrollment Theme"
+            writebackEnable="{Boolean}true">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <default
+                    jcr:primaryType="nt:unstructured"
+                    title="Default"
+                    width="-1"/>
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="991"/>
+            </breakpoints>
+        </metadata>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-11-09T08:18:11.997+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-11-09T08:18:11.999+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Equipment"
+        sling:resourceType="commerce/components/section"
+        coverUrl="/content/dam/we-retail/en/products/activities/equipment_3.png">
+        <templates
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.994+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            proxyProductPages="false"/>
+        <target
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.996+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:primaryType="nt:unstructured"
+            coverImage="/content/dam/we-retail/en/products/activities/equipment_4.jpg"
+            jcr_title="Equipment"
+            navTitle="Equipment">
+            <callouts jcr:primaryType="nt:unstructured">
+                <callout1
+                    jcr:primaryType="nt:unstructured"
+                    buttonPosition="[7,75]"
+                    position="[50,40]"
+                    product="/content/screens/we-retail/apps/virtual-showroom/en/equipment/biking/blast-mini-pump"/>
+                <callout2
+                    jcr:primaryType="nt:unstructured"
+                    buttonPosition="[30,30]"
+                    position="[60,30]"
+                    product="/content/screens/we-retail/apps/virtual-showroom/en/equipment/hiking/desert-sky-shorts"/>
+            </callouts>
+        </target>
+        <filter
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.998+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            searchType="simple"/>
+    </jcr:content>
+    <surfing/>
+    <running/>
+    <water-sports/>
+    <hiking/>
+    <biking/>
+    <snow-sports/>
+</jcr:root>

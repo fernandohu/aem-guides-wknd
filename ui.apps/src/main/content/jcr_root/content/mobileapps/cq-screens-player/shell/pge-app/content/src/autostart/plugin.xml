@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2015 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  -->
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" id="com.adobe.cq.screens.player.autostart" version="0.0.1">
+    <name>Player Autostart Settings</name>
+    <description>AEM Screens player autostart</description>
+    <license>Proprietary</license>
+
+    <platform name="android" xmlns:android="http://schemas.android.com/apk/res/android">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <receiver
+                    android:name=".StartupReceiver"
+                    android:enabled="true"
+                    android:exported="true"
+                    android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+                <intent-filter>
+                    <action android:name="android.intent.action.BOOT_COMPLETED" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </receiver>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        </config-file>
+
+        <source-file src="android/StartupReceiver.java" target-dir="src/com/adobe/aem/screens/player"/>
+    </platform>
+
+
+</plugin>

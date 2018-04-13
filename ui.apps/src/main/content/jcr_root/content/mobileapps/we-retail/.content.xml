@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:mixinTypes="[cq:MobileApp]"
+    jcr:primaryType="cq:Page">
+    <shell/>
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2016-11-24T16:25:05.241-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="We.Retail"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="mobileapps/core/components/group"
+        enableFragmentIdentifier="{Boolean}true"/>
+    <language-masters/>
+</jcr:root>

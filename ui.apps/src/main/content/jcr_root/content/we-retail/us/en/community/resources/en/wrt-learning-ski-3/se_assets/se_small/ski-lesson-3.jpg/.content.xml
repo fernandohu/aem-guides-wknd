@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a4e6a52e-1917-438a-90da-c4cbdddd59f3">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="resources/we-retail/communities/ski-lesson-3.jpg"
+        jcr:lastModified="{Date}2017-03-14T16:59:30.497-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-03-14T16:59:30.292-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}1.3333333730697632"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}2.0"
+            dam:Progressive="no"
+            dam:sha1="897edfd6a6bbba524958902ea4910c2d9bb36974"
+            dam:size="{Long}290945"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:LegacyIPTCDigest="CDCFFA7DA8C7BE09057076AEAF05C34E"
+            tiff:ImageLength="{Long}400"
+            tiff:ImageWidth="{Long}600"
+            xmp:CreateDate="{Date}2015-07-22T11:50:17.000-07:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2016-09-12T16:06:34.000+02:00"
+            xmp:ModifyDate="{Date}2016-09-12T16:06:34.000+02:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:54e8fc40-9dec-1178-9766-b63121e358c9"
+            xmpMM:InstanceID="xmp.iid:b5a6ea1e-4396-42d2-a023-f55c49c5b2b7"
+            xmpMM:OriginalDocumentID="9D26E08D718F83B48470130AC177D398">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:335f5d37-5aa4-429f-b60b-ae736010e1a3"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-09-17T10:02:41.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b5a6ea1e-4396-42d2-a023-f55c49c5b2b7"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-09-12T16:06:34.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

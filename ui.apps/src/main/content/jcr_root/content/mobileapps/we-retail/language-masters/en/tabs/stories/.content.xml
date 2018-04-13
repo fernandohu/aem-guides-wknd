@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/apps/we-retail-client-app/templates/article-page]"
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2016-01-08T14:48:41.932-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-retail-client-app/templates/list-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stories"
+        sling:resourceType="we-retail-client-app/components/structure/list-page"
+        backgroundColor="#000000"
+        listFrom="children"
+        showBackgroundImage="false"
+        tabIconOffCSSClass="ion-ios-bookmarks-outline"
+        tabIconOnCSSClass="ion-ios-bookmarks"
+        tagsMatch="any"
+        ui-router-tabViewName="stories">
+        <image
+            jcr:lastModified="{Date}2016-01-08T14:52:27.244-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/we-retail/en/activities/water-sports/swimming_3.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+    <arctic-surfing-in-lofoten/>
+    <summit-success-in-the-himalayas/>
+    <climbing-on-kalymnos-island--greece/>
+    <running-at-the-great-wall-marathon/>
+    <skiing-deep-powder-in-siberia/>
+    <climbing-in-the-massif-du-mont-blanc/>
+</jcr:root>

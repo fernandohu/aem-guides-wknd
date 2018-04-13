@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/display/2hd"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Dual Zoned Display"
+        sling:resourceType="screens/core/components/display"
+        activeChannel="(auto)"
+        height="1080"
+        layoutNumCols="2"
+        layoutNumRows="1"
+        width="3840">
+        <channels
+            jcr:primaryType="nt:unstructured"
+            idleTimeout="{Long}300"
+            strategy="normal"
+            transition="normal">
+            <default
+                jcr:primaryType="nt:unstructured"
+                events="[load]"
+                path="/content/screens/we-retail/channels/dual-slideshow-channel"
+                role="default"/>
+        </channels>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <device0/>
+</jcr:root>

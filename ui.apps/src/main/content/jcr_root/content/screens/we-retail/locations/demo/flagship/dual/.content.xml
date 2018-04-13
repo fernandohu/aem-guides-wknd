@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/display/2hd"
+        jcr:description="Demo location of a dual screen display."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Dual Screen Display"
+        sling:resourceType="screens/core/components/display"
+        height="1080"
+        layoutNumCols="{Long}2"
+        layoutNumRows="{Long}1"
+        width="3840">
+        <channels
+            jcr:primaryType="nt:unstructured"
+            idleText="Touch anywhere to begin"
+            idleTimeout="{Long}300"
+            idleTitle="Interactive Experience">
+            <idle
+                jcr:primaryType="nt:unstructured"
+                conditions="[]"
+                events="[load,idle]"
+                path="/content/screens/we-retail/channels/idle"
+                role="idle"
+                showTooltip="{Boolean}true"/>
+            <interactive
+                jcr:primaryType="nt:unstructured"
+                conditions="[idle]"
+                events="[click,touchend,pointerup]"
+                path="/content/screens/we-retail/channels/virtual-showroom"
+                role="interactive"/>
+        </channels>
+    </jcr:content>
+    <device0/>
+</jcr:root>

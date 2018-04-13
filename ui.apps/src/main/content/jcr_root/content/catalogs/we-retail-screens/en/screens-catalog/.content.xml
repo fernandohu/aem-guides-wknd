@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:catalogVersion="561"
+        cq:lastModified="{Date}2016-11-09T15:13:55.202+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-11-09T08:18:11.676+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:propertyInheritanceCancelled="[target/cq_designPath]"
+        cq:template="/libs/commerce/templates/catalog"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM Screens Catalog"
+        jcr:uuid="50278834-3a61-474a-acf0-da2eb9da9b45"
+        sling:resourceType="commerce/components/catalog"
+        coverUrl="/content/dam/we-retail/en/products/Product_catalog.jpg">
+        <target
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.669+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            coverImage="/content/dam/we-retail/en/products/Product_catalog.jpg"
+            cq_designPath="/etc/designs/we-retail-screens"/>
+        <templates
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.673+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            catalog="/content/catalogs/we-retail-screens/en/screens-template-pages/catalog-page-template"
+            product="/content/catalogs/we-retail-screens/en/screens-template-pages/product-page-template"
+            proxyProductPages="false"
+            section="/content/catalogs/we-retail-screens/en/screens-template-pages/section-page-template"/>
+        <filter
+            cq:lastRolledout="{Date}2016-11-09T08:18:11.676+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            basePath="/etc/commerce/products/we-retail"
+            searchType="simple"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/catalogs/we-retail/en/master-catalog"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+        <image
+            jcr:lastModified="{Date}2016-11-09T15:13:55.200+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"/>
+        <cq:CatalogSyncConfig jcr:primaryType="cq:CatalogSyncConfig">
+            <catalog
+                cq:catalogPath="/content/screens/we-retail/apps/virtual-showroom/en"
+                cq:rolloutConfigs="[/etc/msm/rolloutconfigs/catalogpagecontent,/etc/msm/rolloutconfigs/catalogrollouthooks]"
+                jcr:primaryType="nt:unstructured"/>
+        </cq:CatalogSyncConfig>
+    </jcr:content>
+    <women/>
+    <men/>
+    <equipment/>
+</jcr:root>

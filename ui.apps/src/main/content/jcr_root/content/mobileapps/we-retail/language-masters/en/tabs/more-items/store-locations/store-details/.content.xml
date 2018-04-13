@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2016-01-25T23:45:49.808-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2016-01-25T23:45:49.804-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Store"
+        sling:resourceType="we-retail-client-app/components/structure/ionic-tab-page">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <location-details
+                jcr:lastModified="{Date}2014-02-07T16:41:45.321-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/structure/locations/location-details"
+                frameworkType="angular"
+                location="/etc/mobileapps/we-retail-client-app/locations/ottawa"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>

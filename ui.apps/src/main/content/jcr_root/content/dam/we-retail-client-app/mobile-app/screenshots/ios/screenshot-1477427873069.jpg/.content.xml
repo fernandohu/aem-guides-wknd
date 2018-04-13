@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3d3d1a70-0035-422c-a6e9-cba6f9654336">
+    <jcr:content
+        dam:assetState="processed"
+        dam:copiedAt="{Date}2016-10-26T13:27:24.167-04:00"
+        dam:parentAssetID="d24d4be9-735d-4920-96fc-11a06b137439"
+        dam:relativePath="we-retail-client-app/mobile-app/screenshots/ios/screenshot-1477427873069.jpg"
+        jcr:lastModified="{Date}2016-10-26T13:27:24.533-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-10-26T13:27:24.229-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="963a5f25039af1e1a2f36c83258dcf172f5b59c2"
+            dam:size="{Long}406479"
+            dc:format="image/jpeg"
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Long}750"
+            exif:PixelYDimension="{Long}1334"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1334"
+            tiff:ImageWidth="{Long}750"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="0/1"
+            tiff:YResolution="0/1"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

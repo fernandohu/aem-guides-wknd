@@ -1,0 +1,14 @@
+{
+    "name": "com.adobe.cq.screens.player.storage",
+    "version": "0.0.1",
+    "cordova": {
+        "id": "com.adobe.cq.screens.player.storage",
+        "platforms": [
+            "android",
+            "ios",
+            "osx"
+        ]
+    },
+    "author": "Adobe Systems Incorporated",
+    "license": "Adobe Systems Incorporated"
+}

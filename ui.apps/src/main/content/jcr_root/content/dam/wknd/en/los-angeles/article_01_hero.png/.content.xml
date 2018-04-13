@@ -44,13 +44,13 @@
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}4"
+            dam:score="{Long}5"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}4"
-                lastUsed="{Date}2017-06-12T15:49:03.263-04:00"/>
+                count="{Long}5"
+                lastUsed="{Date}2018-04-12T20:46:24.881-03:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

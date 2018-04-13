@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/screens"
+        cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/appchannel"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Touch Tracker"
+        sling:resourceSuperType="screens/core/components/channel"
+        sling:resourceType="screens/core/components/appchannel">
+        <app
+            jcr:lastModified="{Date}2015-09-18T15:08:45.850+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="screens/core/components/content/app"
+            appPath="/content/screens/we-retail/apps/touchtracker"
+            duration="0"/>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

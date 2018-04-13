@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-04-06T21:07:12.102+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-04-06T21:07:12.104+02:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="[Hiking,Hiking]"
+        sling:resourceType="commerce/components/section"
+        navTitle="Hiking"
+        pageTitle="Hiking">
+        <target
+            cq:lastRolledout="{Date}2016-04-06T21:07:12.101+02:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            cq_tags="[we-retail:activity/hiking]"
+            jcr_title="Hiking">
+            <image
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/we-retail/en/activities/hiking/hiking_2.jpg"
+                imageRotate="0"/>
+        </target>
+    </jcr:content>
+</jcr:root>

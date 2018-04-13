@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder"
+    hidden="{Boolean}true">
+    <jcr:content
+        cq:allowedTemplates="[/dev/null]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="User Generated Content"/>
+    <home
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured">
+        <rep:policy/>
+    </home>
+    <mailFolder jcr:primaryType="nt:unstructured">
+        <postEmails jcr:primaryType="oak:Unstructured"/>
+    </mailFolder>
+</jcr:root>

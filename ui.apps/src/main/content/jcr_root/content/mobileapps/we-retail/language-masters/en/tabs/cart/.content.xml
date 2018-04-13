@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2016-01-08T14:48:41.932-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-retail/settings/wcm/templates/section-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Wish List"
+        sling:resourceType="we-retail-client-app/components/structure/cart-list-page"
+        listFrom="children"
+        showBackgroundImage="false"
+        tabIconOffCSSClass="ion-ios-cart-outline"
+        tabIconOnCSSClass="ion-ios-cart"
+        tagsMatch="any"
+        ui-router-tabViewName="cart">
+        <image
+            jcr:lastModified="{Date}2016-01-08T14:52:27.244-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/we-retail-client-app/mobile-app/icons/icon.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

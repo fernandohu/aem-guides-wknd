@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2015 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="AEM Server">
+        <EditTextPreference
+                android:key="server"
+                android:title="@string/preferences_url"
+                android:summary="@string/preferences_url_summary"
+                android:defaultValue="@string/preferences_url_default"
+                android:inputType="textUri"
+        />
+        <EditTextPreference
+                android:key="device"
+                android:title="@string/preferences_device"
+                android:summary="@string/preferences_device_summary"
+                android:defaultValue="@string/preferences_device_default"
+        />
+        <EditTextPreference
+                android:key="user"
+                android:title="@string/preferences_user"
+                android:defaultValue="@string/preferences_user_default"
+        />
+        <EditTextPreference
+                android:key="pass"
+                android:title="@string/preferences_password"
+                android:defaultValue="@string/preferences_password_default"
+                android:inputType="textPassword"
+        />
+        <EditTextPreference
+                android:key="resolution"
+                android:title="@string/preferences_resolution"
+                android:summary="@string/preferences_resolution_summary"
+                android:defaultValue="@string/preferences_resolution_default"
+        />
+        <SwitchPreference
+                android:key="enableAdminUI"
+                android:title="@string/preferences_admin_ui"
+                android:summary="@string/preferences_admin_ui_summary"
+                android:defaultValue="true"
+        />
+        <SwitchPreference
+                android:key="enableOSD"
+                android:title="@string/preferences_osd"
+                android:summary="@string/preferences_osd_summary"
+                android:defaultValue="true"
+        />
+        <SwitchPreference
+                android:key="enableRemoteInspect"
+                android:title="@string/preferences_remote_inspect"
+                android:summary="@string/preferences_remote_inspect_summary"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

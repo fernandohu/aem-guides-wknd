@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:crx="http://www.day.com/crx/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <allow
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="community-moderators"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:read,crx:replicate,rep:write,jcr:lockManagement]"/>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="foundation-forms-service"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow2
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="foundation-forms-store-service"
+        rep:privileges="{Name}[jcr:read,rep:write]"/>
+    <deny3
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="everyone"
+        rep:privileges="{Name}[rep:write]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*/cq:meta"/>
+    </deny3>
+    <allow4
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="everyone"
+        rep:privileges="{Name}[jcr:addChildNodes,cq:storeUGC]"/>
+    <allow5
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="communities-ugc-writer"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:read,crx:replicate,rep:write]"/>
+    <allow6
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="administrators"
+        rep:privileges="{Name}[jcr:all]"/>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-04-08T19:00:36.428-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/AEM62App/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Page"
+        sling:resourceType="AEM62App/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="AEM62App/components/structure/logo"/>
+        <title
+            jcr:lastModified="{Date}2018-04-08T18:52:51.045-03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="New Page"
+            sling:resourceType="AEM62App/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="AEM62App/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="AEM62App/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

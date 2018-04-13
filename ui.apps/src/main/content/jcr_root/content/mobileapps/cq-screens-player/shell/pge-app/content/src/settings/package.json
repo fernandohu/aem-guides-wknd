@@ -1,0 +1,12 @@
+{
+  "name": "com.adobe.cq.screens.application.settings",
+  "version": "0.0.1",
+  "cordova": {
+	"id": "com.adobe.cq.screens.application.settings",
+	"platforms": [
+	  "android",
+	  "ios",
+	  "osx"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <men/>
+    <women/>
+    <equipment/>
+    <jcr:content
+        cq:lastModified="{Date}2016-04-06T21:07:11.467+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-04-06T21:07:11.469+02:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Products"
+        sling:resourceType="commerce/components/section">
+        <target
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            jcr_title="Summer 2016"
+            sling_resourceType="we-retail-client-app/components/structure/products/catalog-list-page">
+            <image
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/we-retail/en/products/Product_catalog.jpg"
+                imageRotate="0"/>
+        </target>
+    </jcr:content>
+</jcr:root>

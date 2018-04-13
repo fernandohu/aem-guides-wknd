@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2016-10-17T15:15:33.920-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-retail-client-app/templates/article-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="we-retail-client-app/components/structure/article-page">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2015-12-30T12:23:55.005-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-13T14:22:57.599-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mobileapps/components/image"
+                fileReference="/content/dam/we-retail/en/activities/hiking-camping/trekker-ama-dablam.jpg"/>
+            <text
+                jcr:created="{Date}2016-10-17T14:43:16.517-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-17T15:15:33.913-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h3 style=&quot;text-align:center;&quot;>WE RETAIL&lt;/h3>&#xa;&lt;/p>&#xa;&lt;p>As a business – and as people – we operate with integrity and show respect for each other and the environment. For over 40 years we’ve been dreaming big and demonstrating the best of what business can be.&lt;br>&#xa;&lt;/p>&#xa;&lt;h3 style=&quot;text-align:center;&quot;>OUR ROOTS&lt;/h3>&#xa;&lt;p>We.Retail is a business-to-consumer retail application built with AEM Mobile. &lt;/p>&#xa;&lt;h3 style=&quot;text-align:center;&quot;>A STARTUP IDEA&lt;/h3>&#xa;&lt;p>This application works in conjunction with the We.Retail Sales Associate (clientelling) application and the We.Retail Screen application, both also built with AEM Mobile in addition to the AEM Site for We.Retail for a total end-to-end retail digital experience.&lt;/p>&#xa;&lt;p>Within the We.Retail consumer application, the AEM Author is able to update all content (everything is content), including designs, navigation, add/remove pages, restrict content access, add/remove video, images, text, content fragments, manage beacon inventory and beacon behaviour on device, manage store locations and leverage the GPS sensor on device to find stores near you, create in-app messages, send push notifications, deep-dive into analytics, update product catalog, target content, add events to your calendar, moderate social communities, add new locales and update everything over the air (OTA) with ContentSync.&lt;/p>&#xa;&lt;h3 style=&quot;text-align:center;&quot;>EARLY OPERATION&lt;/h3>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed malesuada arcu. Nunc nec felis sed dolor aliquet ultricies a sit amet diam. In nec purus sapien. In hac habitasse platea dictumst. Aenean elementum auctor risus, quis iaculis justo posuere suscipit. Fusce vel elementum turpis, vel blandit dui. Suspendisse non ligula iaculis lectus pulvinar consectetur. Donec euismod, enim ac posuere fringilla, magna eros commodo eros, eu laoreet ipsum risus vitae lectus. Vestibulum id porta sapien. Suspendisse vel consectetur mi. Duis tellus arcu, porttitor faucibus velit quis, vehicula suscipit leo.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed malesuada arcu. Nunc nec felis sed dolor aliquet ultricies a sit amet diam. In nec purus sapien. In hac habitasse platea dictumst. Aenean elementum auctor risus, quis iaculis justo posuere suscipit. Fusce vel elementum turpis, vel blandit dui. Suspendisse non ligula iaculis lectus pulvinar consectetur. Donec euismod, enim ac posuere fringilla, magna eros commodo eros, eu laoreet ipsum risus vitae lectus. Vestibulum id porta sapien. Suspendisse vel consectetur mi. Duis tellus arcu, porttitor faucibus velit quis, vehicula suscipit leo.&lt;/p>&#xa;&lt;h3 style=&quot;text-align:center;&quot;>COMING INTO OUR OWN&lt;/h3>&#xa;&lt;p>The Source for We.Retail is publicly available on github: https://github.com/Adobe-Marketing-Cloud-Apps/aem-sample-we-retail-app&lt;/p>&#xa;&lt;p>&lt;br>Thank You&lt;br>&lt;/p>"
+                textIsRich="true"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>

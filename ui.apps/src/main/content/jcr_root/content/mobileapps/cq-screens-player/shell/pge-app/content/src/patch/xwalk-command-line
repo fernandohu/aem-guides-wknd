@@ -1,0 +1,1 @@
+--x-ignore-gpu-blacklist --x-show-fps-counter --x-enable-gpu-rasterization

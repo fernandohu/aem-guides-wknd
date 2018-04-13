@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7e911922-eeb4-4d60-919b-317e05bdbe13">
+    <jcr:content
+        cq:name="meet-canada's-hip-hop-royalty"
+        cq:parentPath="/content/dam/we-unlimited-app/issues/en/2012/September"
+        dam:assetID="7e911922-eeb4-4d60-919b-317e05bdbe13"
+        dam:relativePath="we-unlimited-app/issues/en/2012/September/meet-canada's-hip-hop-royalty"
+        jcr:description=""
+        jcr:lastModified="{Date}2016-02-24T20:11:50.883-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Meet Canada's Hip Hop Royalty"
+        contentFragment="{Boolean}true">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2016-02-24T20:11:50.835-08:00"
+            dam:sha1="529b58c595899360db0fb852d6b2b9cb4447c7bb"
+            dam:size="{Long}3220"
+            dc:format="text/x-markdown"
+            dc:modified="{Date}2016-02-24T20:07:36.623-08:00"
+            jcr:lastModified="{Date}2016-02-24T20:07:36.623-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}1">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-02-24T11:28:27.036-08:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

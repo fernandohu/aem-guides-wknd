@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:catalogVersion="561"
+        cq:cloudserviceconfigs="[[]]"
+        cq:propertyInheritanceCancelled="[templates/catalog,templates/section,templates/product]"
+        cq:template="/libs/commerce/templates/catalog"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="App Catalog"
+        jcr:uuid="2ac36343-c02d-4878-8024-c5fd056f69fd"
+        sling:resourceType="commerce/components/catalog"
+        coverUrl="/content/dam/we-retail/products/Product_catalog.jpg">
+        <target
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            jcr_title="Catalogs"
+            sling_resourceType="we-retail-client-app/components/structure/products/product-list-page"/>
+        <templates
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            catalog="/content/catalogs/we-retail-client-app/en/app-template-pages/catalog-page-template"
+            product="/content/catalogs/we-retail-client-app/en/app-template-pages/product-page-template"
+            proxyProductPages="false"
+            section="/content/catalogs/we-retail-client-app/en/app-template-pages/section-page-template"/>
+        <filter
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            basePath="/etc/commerce/products/we-retail"
+            searchType="simple"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/catalogs/we-retail/en/master-catalog"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+        <cq:CatalogSyncConfig jcr:primaryType="cq:CatalogSyncConfig">
+            <catalog
+                cq:catalogPath="/content/mobileapps/we-retail/language-masters/en/tabs/catalogs"
+                cq:rolloutConfigs="[/etc/msm/rolloutconfigs/catalogpagecontent,/etc/msm/rolloutconfigs/catalogrollouthooks]"
+                jcr:primaryType="nt:unstructured"/>
+        </cq:CatalogSyncConfig>
+    </jcr:content>
+    <product-data/>
+    <products/>
+</jcr:root>

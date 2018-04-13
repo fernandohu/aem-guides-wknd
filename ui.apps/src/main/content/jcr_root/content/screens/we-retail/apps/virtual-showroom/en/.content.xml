@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:catalogBlueprint="/content/catalogs/we-retail-screens/en/screens-catalog"
+        cq:commerceType="section"
+        cq:designPath="/etc/designs/we-retail-screens"
+        cq:lastModified="{Date}2016-11-16T15:31:42.171+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastPropertyRollout="{Date}2016-11-16T15:31:42.171+01:00"
+        cq:lastRolledout="{Date}2016-11-16T15:31:42.172+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/we-retail-screens/templates/page_home"
+        jcr:language="en_US"
+        jcr:mixinTypes="[cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title=""
+        sling:resourceType="we-retail-screens/components/page_catalog"
+        coverImage="/content/dam/we-retail/en/products/Product_catalog.jpg">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/catalogs/we-retail-screens/en/screens-template-pages/catalog-page-template"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/catalogpagecontent,/etc/msm/rolloutconfigs/catalogrollouthooks]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+    <women/>
+    <men/>
+    <equipment/>
+</jcr:root>

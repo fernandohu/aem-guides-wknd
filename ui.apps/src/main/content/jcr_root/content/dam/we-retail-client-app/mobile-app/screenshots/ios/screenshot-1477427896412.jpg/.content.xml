@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="074ca3fc-1fd2-4823-90fa-1121d8b2eead">
+    <jcr:content
+        cq:name="screenshot-1477427896412.jpg"
+        cq:parentPath="/content/dam/we-retail-client-app/mobile-app/screenshots/ios"
+        dam:assetState="processed"
+        dam:copiedAt="{Date}2016-10-26T13:27:24.036-04:00"
+        dam:parentAssetID="67c339fd-d264-429e-8e56-8ca2400870b7"
+        dam:relativePath="we-retail-client-app/mobile-app/screenshots/ios/screenshot-1477427896412.jpg"
+        jcr:lastModified="{Date}2016-10-26T13:27:24.486-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-10-26T13:27:24.059-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="9d6f782a1c1c2a73754345da6c86f42de8c5eb58"
+            dam:size="{Long}440075"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-10-26T13:27:24.093-04:00"
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Long}750"
+            exif:PixelYDimension="{Long}1334"
+            jcr:lastModified="{Date}2016-10-26T13:27:24.092-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1334"
+            tiff:ImageWidth="{Long}750"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="0/1"
+            tiff:YResolution="0/1"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

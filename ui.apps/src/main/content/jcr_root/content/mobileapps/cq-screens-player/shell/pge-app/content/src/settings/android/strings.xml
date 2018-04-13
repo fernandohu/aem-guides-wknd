@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2015 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  -->
+<resources>
+  <string name="preferences_launcher_name">AEM Settings</string>
+  <string name="preferences_url">URL</string>
+  <string name="preferences_url_default">http://10.0.2.2:4502</string>
+  <string name="preferences_url_summary">url prefix of the AEM server</string>
+  <string name="preferences_device">Device</string>
+  <string name="preferences_device_default"></string>
+  <string name="preferences_device_summary">device id</string>
+  <string name="preferences_user">User</string>
+  <string name="preferences_user_default"></string>
+  <string name="preferences_password">Password</string>
+  <string name="preferences_password_default"></string>
+  <string name="preferences_resolution">Resolution</string>
+  <string name="preferences_resolution_default">auto</string>
+  <string name="preferences_resolution_summary">define forced resolution</string>
+  <string name="preferences_admin_ui">Enable Admin Menu</string>
+  <string name="preferences_admin_ui_summary">enable the administration menu (long-press on top left)</string>
+  <string name="preferences_osd">Enable Channel Switcher</string>
+  <string name="preferences_osd_summary">enable the channel switcher (long-press on bottom left)</string>
+  <string name="preferences_remote_inspect">Enable Remote Inspection</string>
+  <string name="preferences_remote_inspect_summary">enable remote inspection via chrome dev tools</string>
+</resources>

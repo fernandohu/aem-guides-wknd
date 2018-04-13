@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-01-31T11:38:55.458-08:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM Screens Player"
+        sling:resourceType="mobileapps/phonegap/components/instance/v2"
+        appAssetPath="/content/mobileapps/cq-screens-player/shell/pge-app/content"
+        pge-dashboard-config="/content/mobileapps/cq-screens-player/shell/dashboard"
+        pge-exclude="{Boolean}true"
+        pge-type="[app-instance]"
+        phonegap-build-exportTemplate="/content/mobileapps/cq-screens-player/shell/build"
+        phonegap-build-exportTemplate-dev="/content/mobileapps/cq-screens-player/shell/build"
+        phonegap-exportTemplate="/content/mobileapps/cq-screens-player/shell/pge-app/config"
+        serverURL="http://localhost:4502/">
+        <store
+            jcr:primaryType="nt:unstructured"
+            shortdescription="App &amp; Firmware to run AEM Screens Experiences"/>
+        <widget jcr:primaryType="nt:unstructured">
+            <description
+                jcr:primaryType="nt:unstructured"
+                text="AEM Screens uses an Apache Cordova powered shell application to run on various media player platforms.&#xd;&#xa;The Firmware is the logic that controls and plays the experiences build for AEM Screens. New Firmware versions can be updated over-the-air to the registered Players."/>
+            <content
+                jcr:primaryType="nt:unstructured"
+                src="/index"/>
+        </widget>
+    </jcr:content>
+    <dashboard
+        jcr:primaryType="nt:unstructured"
+        tiles="[/libs/mobileapps/admin/content/dashboard/tiles/default/info,/libs/mobileapps/admin/content/dashboard/tiles/default/appmetrics,/libs/mobileapps/admin/content/dashboard/tiles/default/updatepackages,/libs/mobileapps/admin/content/dashboard/tiles/default/pushnotifications]"/>
+    <build/>
+    <pge-app/>
+</jcr:root>

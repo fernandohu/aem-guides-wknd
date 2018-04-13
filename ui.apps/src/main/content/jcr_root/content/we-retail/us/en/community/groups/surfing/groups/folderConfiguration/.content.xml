@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    cq:lastReplicated="{Date}2017-03-14T17:02:47.974-07:00"
+    cq:lastReplicatedBy="msm-service"
+    cq:lastReplicationAction="Activate"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="43f57d1a-7016-4177-bc87-c64fa801a9f2"
+    sling:resourceType="social/group/components/hbs/groupcollection/groupfolder"/>

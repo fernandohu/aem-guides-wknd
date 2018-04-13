@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:crx="http://www.day.com/crx/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <allow
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="launch-event-service"
+        rep:privileges="{Name}[jcr:modifyProperties]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*/jcr:content*"/>
+    </allow>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="translation-job-service"
+        rep:privileges="{Name}[jcr:modifyAccessControl,jcr:read,jcr:readAccessControl,crx:replicate,rep:write]"/>
+    <deny2
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="everyone"
+        rep:privileges="{Name}[crx:replicate]"/>
+</jcr:root>

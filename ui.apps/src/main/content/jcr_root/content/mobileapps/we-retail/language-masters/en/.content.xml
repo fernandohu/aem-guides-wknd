@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/apps/we-retail-client-app/templates/.*"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2016-07-28T13:38:44.267-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:language="en_US"
+        jcr:lastModified="{Date}2016-07-28T13:38:44.263-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="mobileapps/components/splash-page-content-sync-2"
+        pge-includeInBuild="{Boolean}true"
+        pge-type="[app-content]"
+        phonegap-contentPackageName="en"
+        phonegap-exportTemplate="/content/mobileapps/we-retail/language-masters/en/jcr:content/pge-app/app-config">
+        <image
+            jcr:lastModified="{Date}2014-09-04T16:49:51.263-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/we-retail-client-app/mobile-app/icons/icon.png"
+            imageRotate="0"/>
+        <pge-app jcr:primaryType="nt:unstructured">
+            <app-config/>
+            <app-config-dev/>
+        </pge-app>
+    </jcr:content>
+    <tabs/>
+</jcr:root>

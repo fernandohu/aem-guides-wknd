@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cssClass="aem-Layout aem-Layout--1x1"
+        cq:designPath="/etc/designs/we-retail-screens"
+        cq:lastModified="{Date}2016-12-12T11:25:44.917+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/sequencechannel"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Idle Channel - Night"
+        sling:resourceSuperType="screens/core/components/channel"
+        sling:resourceType="screens/core/components/sequencechannel"
+        forceRemoteContent="true"
+        role="idle-night">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <par
+            cq:cssClass="aem-LayoutCell--1-1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="screens/core/components/sequencechannel/sequence"
+            duration="3000">
+            <cover1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/we-retail/en/activities/hiking-camping/camp-summer-night.jpg"/>
+            <transition
+                jcr:created="{Date}2016-12-12T11:25:25.755+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-12T11:25:34.093+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/transition"
+                duration="600"
+                type="slideinright"/>
+            <cover2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/we-retail/en/activities/climbing/kalymnos-island-female.jpg"/>
+            <transition_241045762
+                jcr:created="{Date}2016-12-12T11:25:28.411+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-12T11:25:44.915+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/transition"
+                duration="600"
+                type="slideinright"/>
+        </par>
+        <offline jcr:primaryType="nt:unstructured">
+            <config/>
+        </offline>
+    </jcr:content>
+</jcr:root>

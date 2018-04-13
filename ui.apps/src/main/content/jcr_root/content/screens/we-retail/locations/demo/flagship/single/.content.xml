@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/display"
+        jcr:description="Demo location of a single screen display."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Single Screen Display"
+        sling:resourceType="screens/core/components/display"
+        height="0"
+        layoutNumCols="{Long}1"
+        layoutNumRows="{Long}1"
+        resolution="2560x1440"
+        width="0">
+        <channels
+            jcr:primaryType="nt:unstructured"
+            idleText="Touch anywhere to begin"
+            idleTimeout="{Long}300"
+            idleTitle="Interactive Experience">
+            <idle
+                jcr:primaryType="nt:unstructured"
+                conditions="[]"
+                events="[load,idle,timer]"
+                path="/content/screens/we-retail/channels/idle"
+                role="idle"
+                schedule="after 6:00 and before 18:00"
+                showTooltip="{Boolean}true"/>
+            <idle-night
+                jcr:primaryType="nt:unstructured"
+                conditions="[]"
+                events="[load,idle,timer]"
+                path="/content/screens/we-retail/channels/idle-night"
+                role="idle-night"
+                schedule="before 6:00 and also after 18:00"
+                showTooltip="{Boolean}true"/>
+            <interactive
+                jcr:primaryType="nt:unstructured"
+                conditions="[idle,idle-night]"
+                events="[click,touchend,pointerup]"
+                path="/content/screens/we-retail/channels/virtual-showroom"
+                role="interactive"/>
+        </channels>
+    </jcr:content>
+    <device0/>
+</jcr:root>

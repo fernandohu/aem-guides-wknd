@@ -1,0 +1,74 @@
+{
+    "#": "starts mouse simulator which allows to generate multi-touch like the ios simulator",
+    "mouseSimulatorEnabled": false,
+
+    "#": "defines the maximum touches 1 grid item has. this is used to offset the pointer IDs for grids.",
+    "maxTouches": 32,
+
+    "#": "grid configuration",
+    "grid": [
+        {
+            "#": "Example for Full HD HID Overlay. Uncomment the 'id' property to enable.",
+            "#": "to figure out the device it, look in the console output for entries like:",
+            "#": "2015-06-25 16:43:32.819 AEM Screens[96784:1219741] Registered touch device with id: location-0x14500000",
+
+            "id": "location-0x14500000",
+            "width": 2560,
+            "height": 1440,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "#": "Example for 2nd Full HD HID Overlay. Uncomment and configure the 'id' property to enable.",
+            "_id": "location-0x14500000",
+            "width": 1920,
+            "height": 1080,
+            "originX": 1920,
+            "originY": 0
+        },
+        {
+            "#": "Example for 3rd Full HD HID Overlay. Uncomment and configure  the 'id' property to enable.",
+            "_id": "location-0x14500000",
+            "width": 1920,
+            "height": 1080,
+            "originX": 3840,
+            "originY": 0
+        },
+        {
+            "#": "Example for Portrait Full HD HID Overlay. Uncomment and configure  the 'id' property to enable.",
+            "_id": "location-0x14500000",
+            "width": 1080,
+            "height": 1920,
+            "originX": 0,
+            "originY": 0,
+            "rotation": 90
+        },
+        {
+            "#": "Example for PQLabs Overlay. Uncomment the 'host' property to enable.",
+            "_host": "localhost",
+            "port": 21555,
+            "width": 1920,
+            "height": 1080,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "#": "Example for Multitaction Overlay. Uncomment the 'host' property to enable.",
+            "_host": "localhost",
+            "port": 5501,
+            "width": 1920,
+            "height": 1080,
+            "originX": 0,
+            "originY": 0,
+            "format": "MT"
+        },
+        {
+            "#": "Example for HID Overlay. Uncomment the 'id' property to enable.",
+            "_id": "any",
+            "width": 2560,
+            "height": 1440,
+            "originX": 0,
+            "originY": 0
+        }
+    ]
+}

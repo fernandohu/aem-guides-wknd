@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[cq:MobileApp]"
+    jcr:primaryType="cq:Page">
+    <banners/>
+    <jcr:content
+        cq:allowedTemplates="[/apps/we-unlimited-app/templates/.*]"
+        cq:designPath="/etc/designs/we-unlimited-app"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2015-06-08T16:17:55.299-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-unlimited-app/templates/issue"
+        jcr:description="The January issue of We Unlimited. Catch the latest great articles about Music Festivals, Summer Blockbusters, Adobe products, and so much more.  Don't miss it! "
+        jcr:primaryType="cq:PageContent"
+        jcr:title="We Unlimited App"
+        sling:resourceType="we-unlimited-app/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/dps-we-unlimited-app"
+        dps-resourceType="dps:Project"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
+        pge-type="[app-group,app-publish]">
+        <image
+            jcr:lastModified="{Date}2015-06-08T16:17:55.293-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0">
+            <file/>
+        </image>
+    </jcr:content>
+    <articles/>
+    <collections/>
+</jcr:root>

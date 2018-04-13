@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="com.adobe.cordova.sistine"
+      version="1.1.0">
+    <name>Sistine</name>
+    <description>Cordova Sistine Plugin</description>
+    <license>Copyright 2015 by Adobe Systems Incorporated</license>
+    <keywords>cordova,sistine,multitouch</keywords>
+    <repo>ssh://git@git.corp.adobe.com/CQ/screens-player.git#:/cordova/cordova-plugin-sistine</repo>
+
+    <engines>
+        <engine name="cordova-osx" version=">=4.0.0" />
+    </engines>
+
+    <js-module src="www/SistineTouch.js" name="SistineTouch">
+        <merges target="window" />
+    </js-module>
+
+    <!-- osx -->
+    <platform name="osx">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SistineTouch">
+                <param name="ios-package" value="SistineTouch" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/osx/SistineTouch.h" />
+        <source-file src="src/osx/SistineTouch.m" />
+
+        <!-- include lib sistine -->
+        <source-file src="frameworks/osx/dist/libsistine.a" compiler-flags="-Obj-C" framework="true" />
+        <header-file target-dir="Sistine" src="frameworks/osx/dist/include/Sistine/STEGlobal.h" />
+        <header-file target-dir="Sistine" src="frameworks/osx/dist/include/Sistine/STETouch.h" />
+        <header-file target-dir="Sistine" src="frameworks/osx/dist/include/Sistine/STETouchAction.h" />
+        <header-file target-dir="Sistine" src="frameworks/osx/dist/include/Sistine/STETouchService.h" />
+
+        <!-- include example config -->
+        <resource-file src="resources/sistine-config.json"/>
+    </platform>
+</plugin>

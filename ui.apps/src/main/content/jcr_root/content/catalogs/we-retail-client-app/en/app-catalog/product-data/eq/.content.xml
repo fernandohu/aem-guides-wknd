@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-08T00:03:42.669Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2012-11-08T00:03:42.665Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="eq"
+        jcr:uuid="9ed44e0f-5f50-4ecc-ac37-85a43d5389c2"
+        sling:resourceType="commerce/components/section">
+        <target
+            jcr:primaryType="nt:unstructured"
+            jcr_title="eq"/>
+        <filter
+            jcr:primaryType="nt:unstructured"
+            matchTags="[]"
+            search="/jcr:root/etc/commerce/products/we-retail//element(*, nt:unstructured) [(jcr:like(fn:name(), 'eq%') and @cq:commerceType = 'product')]"
+            searchType="xpath"/>
+    </jcr:content>
+</jcr:root>

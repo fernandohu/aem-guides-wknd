@@ -47,13 +47,13 @@
         </model>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}6"
+            dam:score="{Long}7"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}6"
-                lastUsed="{Date}2017-06-12T15:50:08.434-04:00"/>
+                count="{Long}7"
+                lastUsed="{Date}2018-04-12T20:47:24.742-03:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

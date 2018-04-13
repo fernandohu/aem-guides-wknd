@@ -1,0 +1,26 @@
+{
+    "name": "com.adobe.cordova.sistine",
+    "version": "1.1.0",
+    "description": "Cordova Sistine Plugin",
+    "cordova": {
+        "id": "com.adobe.cordova.sistine",
+        "platforms": [
+            "osx"
+        ]
+    },
+    "keywords": [
+        "cordova",
+        "sistine",
+        "multitouch",
+        "ecosystem:cordova",
+        "cordova-osx"
+    ],
+    "engines": [
+        {
+            "name": "cordova-osx",
+            "version": ">=4.0.0"
+        }
+    ],
+    "author": "Adobe Systems Incorporated",
+    "license": "Adobe Systems Incorporated"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "com.adobe.cq.screens.player.autostart",
+  "version": "0.0.1",
+  "cordova": {
+	"id": "com.adobe.cq.screens.player.autostart",
+	"platforms": [
+	  "android"
+    ]
+  }
+}

@@ -1,4 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[mix:lockable,rep:AccessControllable]"
-    jcr:primaryType="sling:Folder"/>
+    jcr:primaryType="sling:Folder">
+    <dam:batch
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="asset/batch"/>
+    <jcr:content
+        cq:allowedTemplates="[/libs/dam/templates/assetshare,/libs/dam/templates/asseteditor]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Assets"/>
+    <assetinsights jcr:primaryType="nt:unstructured">
+        <embedcode
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dam/components/assetinsights/embedcode"/>
+        <pagetracker
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dam/components/assetinsights/pagetracker"/>
+    </assetinsights>
+    <collections
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="dam/collection">
+        <h jcr:primaryType="nt:unstructured">
+            <haxYffdbhiU55cqk7X14 jcr:primaryType="nt:unstructured">
+                <lightbox
+                    jcr:created="{Date}2018-04-02T18:44:51.716-03:00"
+                    jcr:createdBy="admin"
+                    jcr:description=""
+                    jcr:lastModified="{Date}2018-04-02T18:44:51.716-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[rep:AccessControllable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Lightbox"
+                    sling:resourceSuperType="sling/collection"
+                    sling:resourceType="dam/collection">
+                    <sling:members jcr:primaryType="nt:unstructured"/>
+                    <rep:policy/>
+                </lightbox>
+            </haxYffdbhiU55cqk7X14>
+        </h>
+        <rep:policy/>
+        <a jcr:primaryType="nt:unstructured">
+            <admin jcr:primaryType="nt:unstructured">
+                <recently_modifiedassets
+                    dam:query="#Thu Sep 05 17:19:13 IST 2013&#xa;modpredicate=WEEK&#xa;1_group.0_property=jcr:content/cq:lastReplicationAction&#xa;4_group.property=jcr:content/metadata/dc:format&#xa;orderby=path&#xa;type=dam:Asset&#xa;3_group.property=jcr:content/metadata/cq:tags&#xa;mainasset=true&#xa;fulltext=&#xa;1_group.1_property=jcr:content/cq:lastReplicationAction&#xa;5_relativedaterange.property=jcr:content/jcr:lastModified&#xa;5_relativedaterange.lowerBound=-1w&#xa;5_relativedaterange.lowerOperation=>=&#xa;path=/content/dam&#xa;location.suggestion=Assets"
+                    jcr:created="{Date}2013-09-05T11:49:13.770Z"
+                    jcr:createdBy="admin"
+                    jcr:mixinTypes="[rep:AccessControllable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Recently Modified Assets"
+                    sling:resourceSuperType="sling/collection"
+                    sling:resourceType="dam/smartcollection">
+                    <sling:members jcr:primaryType="nt:unstructured"/>
+                    <rep:policy/>
+                </recently_modifiedassets>
+                <recently_checkoutassets
+                    dam:query="8_group.0_property=jcr:content/cq:drivelock&#xa;8_group.0_property.operation=exists&#xa;8_group.0_property.value=true&#xa;type=dam:Asset&#xa;path=/content/dam&#xa;mainasset=true&#xa;location.suggestion=Assets"
+                    jcr:lastModified="{Date}2017-01-13T16:47:48.048+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[rep:AccessControllable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="All Checked Out Assets"
+                    sling:resourceSuperType="sling/collection"
+                    sling:resourceType="dam/smartcollection">
+                    <sling:members jcr:primaryType="nt:unstructured"/>
+                    <rep:policy/>
+                </recently_checkoutassets>
+            </admin>
+        </a>
+        <public
+            jcr:mixinTypes="[rep:AccessControllable]"
+            jcr:primaryType="nt:unstructured">
+            <rep:policy/>
+            <checkoutassets
+                dam:query="path=/content/dam&#xa;mainasset=true&#xa;type=dam:Asset&#xa;checkoutbycurrentuser"
+                jcr:lastModified="{Date}2017-01-13T16:47:09.951+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[rep:AccessControllable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="My Checked Out Assets"
+                sling:resourceSuperType="sling/collection"
+                sling:resourceType="dam/smartcollection">
+                <sling:members jcr:primaryType="nt:unstructured"/>
+                <rep:policy/>
+            </checkoutassets>
+        </public>
+    </collections>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="803e4c10-6029-4e16-9e77-07b48bf70299">
+    <jcr:content
+        cq:name="summer-blockbuster-hits-and-misses"
+        cq:parentPath="/content/dam/we-unlimited-app/issues/en/2012/September"
+        dam:assetID="803e4c10-6029-4e16-9e77-07b48bf70299"
+        dam:relativePath="we-unlimited-app/issues/en/2012/September/summer-blockbuster-hits-and-misses"
+        jcr:description=""
+        jcr:lastModified="{Date}2016-02-24T20:11:30.394-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Summer Blockbuster Hits and Misses"
+        contentFragment="{Boolean}true">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2016-02-24T20:11:30.342-08:00"
+            dam:sha1="96dcc7b63be57cd8a5e58d5e73b87bf823b5b2cc"
+            dam:size="{Long}1620"
+            dc:format="text/x-markdown"
+            dc:modified="{Date}2016-02-24T20:07:37.734-08:00"
+            jcr:lastModified="{Date}2016-02-24T20:07:37.733-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}1">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-02-24T11:25:10.533-08:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

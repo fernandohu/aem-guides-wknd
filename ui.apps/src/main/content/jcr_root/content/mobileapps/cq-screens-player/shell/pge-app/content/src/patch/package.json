@@ -1,0 +1,18 @@
+{
+  "name": "com.adobe.cq.screens.patch",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "com.adobe.cq.screens.patch",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Adobe Systems Incorporated",
+  "license": "Adobe Systems Incorporated"
+}

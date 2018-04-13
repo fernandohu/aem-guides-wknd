@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:catalogBlueprint="/content/catalogs/we-retail-client-app/en/app-catalog/products/women"
+        cq:commerceType="section"
+        cq:lastModified="{Date}2016-08-09T16:21:14.028-04:00"
+        cq:lastModifiedBy="admin"
+        cq:lastPropertyRollout="{Date}2016-08-09T16:21:14.028-04:00"
+        cq:lastRolledout="{Date}2016-08-09T16:21:14.030-04:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/we-retail/settings/wcm/templates/section-page"
+        jcr:mixinTypes="[cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Women"
+        sling:resourceType="we-retail-client-app/components/structure/products/product-category-list-page"
+        coverImage="/content/dam/we-retail/people/womens/women_6.jpg"
+        listFrom="children"
+        tagsMatch="any">
+        <image
+            cq:lastRolledout="{Date}2016-08-09T16:21:14.030-04:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/we-retail/en/people/womens/women_2.jpg"
+            imageRotate="0"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/catalogs/we-retail-client-app/en/app-template-pages/section-page-template"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/catalogpagecontent,/etc/msm/rolloutconfigs/catalogrollouthooks]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+    <coats/>
+    <shirts/>
+    <pants/>
+    <shorts/>
+    <gloves/>
+</jcr:root>

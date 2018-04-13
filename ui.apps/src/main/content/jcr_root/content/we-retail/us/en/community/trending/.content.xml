@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:scg="http://www.adobe.com/social/scg/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/social/console"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-03-14T16:56:16.965-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2017-03-14T16:56:19.944-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2017-03-14T16:55:34.120-07:00"
+        cq:lastRolledoutBy="msm-service"
+        cq:template="/libs/social/console/templates/base_page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Trending"
+        jcr:uuid="1fab8d07-9ac2-456d-8c13-35db1ab497d7"
+        sling:resourceType="social/console/components/basepage"
+        etcpath="/etc/community/templates/functions/reference/page"
+        navTitle="Trending"
+        offTime_x0040_TypeHint="Date"
+        onTime_x0040_TypeHint="Date"
+        pageTitle="Trending">
+        <clientlibslist
+            cq:lastRolledout="{Date}2017-03-14T16:55:34.080-07:00"
+            cq:lastRolledoutBy="msm-service"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            scg:requiredClientLibs="[cq.social.hbs.breadcrumbs,personalization.core.kernel,personalization.clientcontext.kernel,personalization.stores.kernel,personalization.kernel]"
+            sling:resourceType="social/console/components/clientlibslist"/>
+        <content
+            cq:lastRolledout="{Date}2017-03-14T16:55:34.084-07:00"
+            cq:lastRolledoutBy="msm-service"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="social/console/components/hbs/singlecolumncontent">
+            <primary
+                cq:lastRolledout="{Date}2017-03-14T16:55:34.090-07:00"
+                cq:lastRolledoutBy="msm-service"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <trending1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/reporting/analytics/components/hbs/communityactivitylist"
+                    activityType="views"
+                    contextPath="/content/we-retail/us/en/community"
+                    displayCount="5"
+                    displayTitle="Top Visitors"
+                    isAggregate="true"
+                    timePeriod="total"
+                    type="members">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </trending1>
+                <trending2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/reporting/analytics/components/hbs/communityactivitylist"
+                    activityType="posts"
+                    contextPath="/content/we-retail/us/en/community"
+                    displayCount="5"
+                    displayTitle="Top Contributors"
+                    isAggregate="true"
+                    timePeriod="total"
+                    type="members">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </trending2>
+                <trending3
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/reporting/analytics/components/hbs/communityactivitylist"
+                    activityType="views"
+                    contextPath="/content/we-retail/us/en/community"
+                    displayCount="5"
+                    displayTitle="Top Content"
+                    timePeriod="total"
+                    type="content">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            width="6"/>
+                    </cq:responsive>
+                </trending3>
+                <trending4
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/reporting/analytics/components/hbs/communityactivitylist"
+                    activityType="posts"
+                    contextPath="/content/we-retail/us/en/community"
+                    displayCount="5"
+                    displayTitle="Trending Content"
+                    timePeriod="total"
+                    type="content">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </trending4>
+                <featuredcontent1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/commons/components/hbs/featuredcontent"
+                    displayLimit="5"
+                    displayName="Featured Questions"
+                    location="/content/we-retail/us/en/community/questions">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            width="6"/>
+                    </cq:responsive>
+                </featuredcontent1>
+                <featuredcontent2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/commons/components/hbs/featuredcontent"
+                    displayLimit="5"
+                    displayName="Featured Ideas"
+                    location="/content/we-retail/us/en/community/ideas">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </featuredcontent2>
+            </primary>
+        </content>
+        <cq:responsive
+            cq:lastRolledout="{Date}2017-03-14T16:55:34.093-07:00"
+            cq:lastRolledoutBy="msm-service"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured">
+            <breakpoints
+                cq:lastRolledout="{Date}2017-03-14T16:55:34.099-07:00"
+                cq:lastRolledoutBy="msm-service"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured">
+                <phone
+                    cq:lastRolledout="{Date}2017-03-14T16:55:34.109-07:00"
+                    cq:lastRolledoutBy="msm-service"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}768"/>
+                <tablet
+                    cq:lastRolledout="{Date}2017-03-14T16:55:34.114-07:00"
+                    cq:lastRolledoutBy="msm-service"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}992"/>
+                <mediumscreen
+                    cq:lastRolledout="{Date}2017-03-14T16:55:34.119-07:00"
+                    cq:lastRolledoutBy="msm-service"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    title="Medium Screen"
+                    width="{Decimal}1200"/>
+            </breakpoints>
+        </cq:responsive>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/communities/templates/functions/page"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+</jcr:root>

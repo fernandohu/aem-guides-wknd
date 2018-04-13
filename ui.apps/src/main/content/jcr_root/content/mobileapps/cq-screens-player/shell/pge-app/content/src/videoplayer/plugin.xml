@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2015 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  -->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.adobe.aem.screens.videoplayer"
+        version="1.0.0">
+    <name>ScreensVideoPlayer</name>
+    <license>Copyright 2016 by Adobe Systems Incorporated</license>
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0"/>
+    </engines>
+
+    <hook type="after_prepare" src="src/patchMainActivity.js"/>
+
+    <!-- android -->
+    <platform name="android" xmlns:android="http://schemas.android.com/apk/res/android">
+        <js-module src="www/VideoPlayer.js" name="ScreensVideoPlayer">
+            <clobbers target="window.plugins.ScreensVideoPlayer"/>
+        </js-module>
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ScreensVideoPlayer">
+                <param name="android-package" value="com.adobe.aem.screens.player.videoplayer.VideoPlayer"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.INTERNET"/>
+        </config-file>
+        <source-file src="src/android/VideoPlayer.java" target-dir="src/com/adobe/aem/screens/player/videoplayer"/>
+    </platform>
+</plugin>
