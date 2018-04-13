@@ -71,12 +71,16 @@
         rep:privileges="{Name}[jcr:modifyAccessControl,jcr:read,jcr:readAccessControl,rep:write]"/>
     <allow14
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="contentsync-service"
-        rep:privileges="{Name}[jcr:read]"/>
+        rep:principalName="communities-utility-reader"
+        rep:privileges="{Name}[jcr:read]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="*/components/*"/>
+    </allow14>
     <allow15
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="translation-job-service"
-        rep:privileges="{Name}[jcr:read,rep:write]"/>
+        rep:principalName="contentsync-service"
+        rep:privileges="{Name}[jcr:read]"/>
     <allow16
         jcr:primaryType="rep:GrantACE"
         rep:principalName="projects-service"
@@ -87,10 +91,14 @@
     </allow16>
     <allow17
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="communities-utility-reader"
+        rep:principalName="projects-purge-service"
         rep:privileges="{Name}[jcr:read]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:glob="*/components/*"/>
+            rep:glob="*/cq/core/content/projects/*"/>
     </allow17>
+    <allow18
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="translation-job-service"
+        rep:privileges="{Name}[jcr:read,rep:write]"/>
 </jcr:root>

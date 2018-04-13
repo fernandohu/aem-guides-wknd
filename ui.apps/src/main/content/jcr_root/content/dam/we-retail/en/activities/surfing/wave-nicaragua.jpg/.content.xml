@@ -7,14 +7,13 @@
     <jcr:content
         cq:name="wave-nicaragua.jpg"
         cq:parentPath="/content/dam/we-retail/en/activities/surfing"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/activities/surfing/wave-nicaragua.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:44:59.830-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:16:38.215+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:44:59.310-03:00"
+            dam:extracted="{Date}2016-09-12T17:16:37.386+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -35,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2018-04-12T22:44:42.651-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:24.740+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

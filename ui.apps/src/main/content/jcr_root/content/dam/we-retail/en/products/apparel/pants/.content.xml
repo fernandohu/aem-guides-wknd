@@ -10,7 +10,5 @@
     <Pants_women.jpg/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Pants">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Pants"/>
 </jcr:root>

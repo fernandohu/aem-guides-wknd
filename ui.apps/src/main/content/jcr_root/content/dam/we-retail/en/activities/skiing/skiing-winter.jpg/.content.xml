@@ -7,14 +7,13 @@
     <jcr:content
         cq:name="skiing-winter.jpg"
         cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/activities/skiing/skiing-winter.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:44:56.570-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:16:57.922+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:44:38.209-03:00"
+            dam:extracted="{Date}2016-09-12T17:16:57.344+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -33,7 +32,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2018-04-12T22:44:56.570-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:26.730+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

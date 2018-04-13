@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Leaderboard"
-        jcr:uuid="8585aa6a-31e1-4a87-b42f-8102df91860b"
+        jcr:uuid="fa566953-f44b-4457-92a8-76093f4d9704"
         sling:resourceType="/apps/community-components/components/componentpage"
         navTitle="Leaderboard">
         <header

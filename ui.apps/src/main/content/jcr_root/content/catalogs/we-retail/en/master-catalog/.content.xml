@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Master Catalog"
-        jcr:uuid="1221727d-4a04-427e-a682-96c0de86e1eb"
+        jcr:uuid="abaea303-1d3c-4aa2-af93-ee836501a269"
         sling:resourceType="commerce/components/catalog"
         coverUrl="/content/dam/we-retail/en/products/Product_catalog.jpg">
         <target

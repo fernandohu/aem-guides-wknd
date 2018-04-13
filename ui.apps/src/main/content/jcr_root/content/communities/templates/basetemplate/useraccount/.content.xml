@@ -6,7 +6,7 @@
         jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
         jcr:title="User Account"
-        jcr:uuid="d33e6abd-4441-4d16-b3fe-930f93baf24a"
+        jcr:uuid="f80dddff-0b49-4383-a544-56a5f922a051"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"

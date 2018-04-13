@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="45c6be94-ad1d-4d6e-a7dc-40ce2385e4bf">
     <jcr:content
-        cq:name="Hiking-Campaign-Male.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/hiking-camping"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/activities/hiking-camping/Hiking-Campaign-Male.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:45:04.088-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:17:07.209+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:45:03.331-03:00"
+            dam:extracted="{Date}2016-09-12T17:17:06.709+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -27,9 +23,6 @@
             dam:sha1="c3d5daa32556a68e01c089617716fc27c3dec442"
             dam:size="{Long}257927"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-04-12T22:44:42.282-03:00"
-            jcr:lastModified="{Date}2018-04-12T22:44:42.281-03:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1067"

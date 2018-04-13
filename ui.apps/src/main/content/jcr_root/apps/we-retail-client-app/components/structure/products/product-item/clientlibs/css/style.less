@@ -1,0 +1,209 @@
+/*
+ *  Copyright 2016 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+ion-content.product-page {
+  background-color: #ffffff;
+
+  ion-content {
+    background-color: #ffffff;
+  }
+}
+
+.product-item-details {
+
+  color: #616060;
+
+  .ion-ios-star-outline,
+  .ion-ios-information-outline {
+    color: #000000;
+    font-size: 2.5rem;
+  }
+
+  .bar {
+
+    &.bar-header {
+      background: none;
+      padding: 0;
+    }
+
+    .bar-action {
+      background: rgba(0,0,0,0.2);
+      margin-top: 39px;
+
+      .title {
+        font-size: 0.8rem;
+        display: block;
+      }
+    }
+  }
+
+  h1.title {
+    font-size: 0.8rem;
+  }
+
+  .wishListItem {
+    color: red;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+    display: inline;
+  }
+
+  .product-info {
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .product-info-sku {
+      font-size: 0.6rem;
+    }
+
+    .stock {
+      margin-bottom: 15px;
+      height: 44px;
+      width: 100%;
+
+      background: #f4f4f4;
+      border: 1px solid #e8e8e8;
+      min-height: 55px;
+      position: relative;
+
+      dl {
+        display:inline-block
+      }
+
+      dt {
+        display: inline-block;
+      }
+
+      dd {
+        margin-left:0;
+        display:inline;
+        line-height:1.3;
+      }
+      dd:after {
+        content:'';
+        display: block;
+      }
+
+      .stock-status--wrapper-icon {
+        background: #ff0000;
+
+        &.in-stock {
+          background: #00792b;
+        }
+
+        height: calc(100% - -2px);
+        left: -1px;
+        position: absolute;
+        top: -1px;
+        width: 30px;
+        text-align: center;
+
+        .ion-ios-checkmark-empty {
+          color: #ffffff;
+          font-size: 40px;
+          line-height: 55px;
+        }
+      }
+
+      .stock-status--details-content-wrapper {
+        display: table;
+        height: 100%;
+        padding: 5px 0 5px 40px;
+        width: calc(100% - 20px);
+        font-size: 0.6rem;
+        &:before,
+        &:after {
+          content: '';
+          display: table;
+        }
+      }
+    }
+
+    .reviews {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.modal-backdrop {
+  .modal-backdrop-bg {
+    transition: all cubic-bezier(.1, .7, .1, 1) 300ms;
+    opacity: 0.8;
+    background-color: #000;
+  }
+}
+
+.platform-ios.platform-cordova:not(.fullscreen)  {
+
+  .product-item-details {
+    .has-subheader {
+      top: 90px;
+    }
+  }
+
+  .modal-product-details {
+    &.modal {
+      margin-top:22px;
+    }
+  }
+}
+
+.modal-product-details {
+  color: #ffffff;
+
+  &.modal {
+    background: none;
+  }
+
+  .ion-ios-close-outline {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem;
+    top: 88px;
+    right: 10px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  ion-content {
+    background-color: transparent;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .modal-product-details-description {
+      padding-top: 150px;
+    }
+  }
+}
+
+
+

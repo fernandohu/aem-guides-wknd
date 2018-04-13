@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-retail-client-app/templates/list-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="More"
+        sling:resourceType="we-retail-client-app/components/structure/list-page"
+        listFrom="children"
+        navTitle="More"
+        tabIconOffCSSClass="ion-ios-more-outline"
+        tabIconOnCSSClass="ion-ios-more"
+        ui-router-tabViewName="more">
+        <content-par
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <login
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/content/login"/>
+            <profileImage
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/content/profile/image"/>
+            <list
+                jcr:lastModified="{Date}2016-07-22T13:53:52.720-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/content/menu-list"
+                displayAs="default"
+                listFrom="children"
+                parentPage="/content/mobileapps/we-retail/language-masters/en/tabs/more-items"
+                tagsMatch="any"/>
+            <updateButton
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-retail-client-app/components/content/update-button"/>
+        </content-par>
+    </jcr:content>
+    <more-items-landing/>
+</jcr:root>

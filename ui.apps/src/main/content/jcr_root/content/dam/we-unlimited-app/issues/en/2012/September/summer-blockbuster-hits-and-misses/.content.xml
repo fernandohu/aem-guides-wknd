@@ -8,10 +8,9 @@
         cq:name="summer-blockbuster-hits-and-misses"
         cq:parentPath="/content/dam/we-unlimited-app/issues/en/2012/September"
         dam:assetID="803e4c10-6029-4e16-9e77-07b48bf70299"
-        dam:assetState="processed"
         dam:relativePath="we-unlimited-app/issues/en/2012/September/summer-blockbuster-hits-and-misses"
         jcr:description=""
-        jcr:lastModified="{Date}2018-04-12T22:46:35.474-03:00"
+        jcr:lastModified="{Date}2016-02-24T20:11:30.394-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Summer Blockbuster Hits and Misses"
@@ -22,12 +21,12 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <metadata
-            dam:extracted="{Date}2018-04-12T22:46:29.063-03:00"
-            dam:sha1="16a8f28942c255c0d35f485a08405c03a58fc0ad"
-            dam:size="{Long}1632"
+            dam:extracted="{Date}2016-02-24T20:11:30.342-08:00"
+            dam:sha1="96dcc7b63be57cd8a5e58d5e73b87bf823b5b2cc"
+            dam:size="{Long}1620"
             dc:format="text/x-markdown"
             dc:modified="{Date}2016-02-24T20:07:37.734-08:00"
-            jcr:lastModified="{Date}2018-04-12T22:46:35.473-03:00"
+            jcr:lastModified="{Date}2016-02-24T20:07:37.733-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

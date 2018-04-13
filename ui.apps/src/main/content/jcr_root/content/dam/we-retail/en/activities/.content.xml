@@ -5,7 +5,5 @@
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Activities">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Activities"/>
 </jcr:root>

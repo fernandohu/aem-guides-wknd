@@ -7,9 +7,8 @@
     <jcr:content
         cq:name="camp-fire.jpg"
         cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/camp-fire.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:46:28.272-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:16:16.270+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -124,7 +123,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:46:19.028-03:00"
+            dam:extracted="{Date}2016-09-12T17:16:15.020+05:30"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1 600"
@@ -140,7 +139,7 @@
             dam:sha1="93eff016777744f4376bea9e0bbe8c4cd3a02da5"
             dam:size="{Long}313908"
             dam:TimeCreated="083632+0200"
-            dc:date="{Long}[20151003]"
+            dc:date="[20151003]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -181,7 +180,7 @@
             exifEX:PhotographicSensitivity="{Long}500"
             exifEX:RecommendedExposureIndex="{Long}500"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2018-04-12T22:46:28.272-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:07.564+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

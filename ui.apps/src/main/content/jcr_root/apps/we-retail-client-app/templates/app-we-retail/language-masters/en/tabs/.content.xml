@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2015-12-30T23:05:38.075-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-retail-client-app/templates/ionic-tab-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="App Home"
+        sling:resourceType="we-retail-client-app/components/structure/ionic-tab-page"
+        pge-angularModuleDependencies="[ionic,cqAppControllers,cqAppNavigation,cqMobileApps,weRetail]">
+        <image
+            jcr:lastModified="{Date}2015-12-30T00:22:35.747-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"/>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Small Screen"
+                    width="{Decimal}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Large Screen"
+                    width="{Decimal}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+    <home/>
+    <stories/>
+    <more-items/>
+</jcr:root>

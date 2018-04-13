@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        cq:lastModified="{Date}2014-09-04T16:49:51.266-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="We.Retail Client App"
+        sling:resourceType="mobileapps/phonegap/components/instance"
+        phonegap-build-exportTemplate="../../shell/jcr:content/pge-app/App"
+        phonegap-build-exportTemplate-dev="../../shell/jcr:content/pge-app/App-dev"
+        phonegap-exportTemplate="../jcr:content/pge-app/app-config">
+        <pge-app jcr:primaryType="nt:unstructured">
+            <app-content jcr:primaryType="nt:unstructured">
+                <phonegap/>
+            </app-content>
+            <App/>
+            <app-config/>
+            <app-config-dev/>
+            <App-dev/>
+        </pge-app>
+        <widget jcr:primaryType="nt:unstructured">
+            <icon
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/we-retail-client-app/mobile-app/icons/icon.png"/>
+            <content
+                jcr:primaryType="nt:unstructured"
+                src="../../../../language-masters/en"/>
+        </widget>
+        <screenshots
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Screenshots"
+            sling:resourceSuperType="sling/collection"
+            sling:resourceType="dam/collection"
+            assetPath="/content/dam/we-retail-client-app/mobile-app/screenshots">
+            <sling:members
+                jcr:primaryType="nt:unstructured"
+                sling:resources="[]"/>
+        </screenshots>
+    </jcr:content>
+</jcr:root>

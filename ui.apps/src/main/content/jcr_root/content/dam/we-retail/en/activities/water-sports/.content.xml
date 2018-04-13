@@ -6,7 +6,5 @@
     <jcr:content
         dam:relativePath="we-retail/en/activities/water-sports"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Water Sports">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Water Sports"/>
 </jcr:root>

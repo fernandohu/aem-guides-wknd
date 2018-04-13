@@ -1,0 +1,62 @@
+/*
+ *
+ * Copyright 2016 Adobe Systems Incorporated
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.instore-VariantListView {
+  display: table;
+  margin: 20px 0 20px -10px;
+  border-spacing: 10px 0;
+
+  &:after {
+    clear: both;
+    display: table;
+    content: '';
+  }
+
+  .instore-VariantView {
+    display: table-cell;
+    border: @border-width--medium solid;
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    color: #999;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+    &.active {
+      border-color: @highlight-color;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+
+  }
+
+  .instore-VariantView--color {
+    font-size: 1em;
+  }
+
+}
+
+.instore-VariantListView-title {
+  display: table-row;
+  line-height: 2em;
+  text-transform: capitalize;
+}

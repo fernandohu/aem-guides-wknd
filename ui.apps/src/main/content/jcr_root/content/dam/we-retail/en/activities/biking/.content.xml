@@ -6,7 +6,5 @@
     <jcr:content
         dam:relativePath="we-retail/en/activities/biking"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Biking">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Biking"/>
 </jcr:root>

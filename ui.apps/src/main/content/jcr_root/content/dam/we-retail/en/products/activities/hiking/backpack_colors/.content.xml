@@ -10,7 +10,7 @@
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:25.361-05:00"
         dam:relativePath="we-retail/en/products/activities/hiking/backpack_colors"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2018-04-12T22:46:04.492-03:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:26.349+02:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -21,7 +21,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2014-05-15T13:49:52.696-07:00"
             dc:title="Backpack Colors"
-            jcr:lastModified="{Date}2018-04-12T22:46:04.491-03:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:26.349+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

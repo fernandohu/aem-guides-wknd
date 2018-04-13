@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/whiteflowers.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:46:36.619-03:00"
+        jcr:lastModified="{Date}2018-04-13T10:14:47.505-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:46:33.615-03:00"
+            dam:extracted="{Date}2018-01-04T15:31:34.134-05:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,13 +25,13 @@
             dam:Physicalwidthininches="{Decimal}16.66666603088379"
             dam:Progressive="no"
             dam:sha1="8bc0dce05f641e73783c9a86cebc9cd9e5057799"
-            dam:size="{Long}138254"
+            dam:size="{Long}137740"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:42.447-05:00"
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}1200"
             exif:PixelYDimension="{Long}1200"
-            jcr:lastModified="{Date}2018-04-12T22:46:36.619-03:00"
+            jcr:lastModified="{Date}2018-04-13T10:14:47.505-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -78,13 +78,13 @@
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}1"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2018-01-04T15:32:03.675-05:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2018-04-13T11:41:38.404-03:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

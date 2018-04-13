@@ -8,10 +8,9 @@
         cq:name="the-lineup-you've-been-waiting-for"
         cq:parentPath="/content/dam/we-unlimited-app/issues/en/2012/October"
         dam:assetID="deeaca57-3cd6-48e2-a1ea-b2da3d2a084a"
-        dam:assetState="processed"
         dam:relativePath="we-unlimited-app/issues/en/2012/October/the-lineup-you've-been-waiting-for"
         jcr:description=""
-        jcr:lastModified="{Date}2018-04-12T22:46:35.553-03:00"
+        jcr:lastModified="{Date}2016-02-24T20:12:31.740-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="The Lineup you've been waiting for"
@@ -22,12 +21,12 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <metadata
-            dam:extracted="{Date}2018-04-12T22:46:29.274-03:00"
-            dam:sha1="08d07e3c08bd38a4f47cbb97584edfddba74d3f5"
-            dam:size="{Long}3042"
+            dam:extracted="{Date}2016-02-24T20:12:31.694-08:00"
+            dam:sha1="9caf2197a282f053a767497348614538fe93a715"
+            dam:size="{Long}3020"
             dc:format="text/x-markdown"
             dc:modified="{Date}2016-02-24T20:07:34.384-08:00"
-            jcr:lastModified="{Date}2018-04-12T22:46:35.553-03:00"
+            jcr:lastModified="{Date}2016-02-24T20:07:34.383-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

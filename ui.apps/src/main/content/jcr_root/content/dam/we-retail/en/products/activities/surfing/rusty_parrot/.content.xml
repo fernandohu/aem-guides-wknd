@@ -5,7 +5,7 @@
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:11.025-05:00"
         dam:relativePath="we-retail/en/products/activities/surfing/rusty_parrot"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2018-04-12T22:45:50.572-03:00"
+        jcr:lastModified="{Date}2016-04-06T19:51:00.385+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -15,7 +15,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2016-01-08T12:58:33.432-08:00"
             dc:title="Rusty Parrot"
-            jcr:lastModified="{Date}2018-04-12T22:45:50.572-03:00"
+            jcr:lastModified="{Date}2016-04-06T19:51:00.385+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

@@ -6,9 +6,7 @@
         cq:lastModifiedBy="admin"
         dam:relativePath="we-retail/en/products/apparel/footwear"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Footwear">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Footwear"/>
     <Marin.jpg/>
     <Seastar_x0020_Green.jpg/>
     <Seastar_x0020_Red.jpg/>

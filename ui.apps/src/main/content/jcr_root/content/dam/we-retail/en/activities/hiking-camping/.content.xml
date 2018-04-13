@@ -12,7 +12,5 @@
     <trekker-khumbu-valley.jpg/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Hiking &amp; Camping">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Hiking &amp; Camping"/>
 </jcr:root>

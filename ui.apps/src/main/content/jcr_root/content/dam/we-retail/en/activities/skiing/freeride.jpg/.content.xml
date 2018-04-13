@@ -7,14 +7,13 @@
     <jcr:content
         cq:name="freeride.jpg"
         cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/activities/skiing/freeride.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:44:52.105-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:17:12.264+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:44:51.602-03:00"
+            dam:extracted="{Date}2016-09-12T17:17:11.795+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -35,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}2880"
-            jcr:lastModified="{Date}2018-04-12T22:44:51.755-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:22.493+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

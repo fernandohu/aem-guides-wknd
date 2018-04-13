@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:template="/apps/we-unlimited-app/templates/issue"
+    jcr:description="A content container for an App managed using Experience Manager Mobile based on We Unlimited"
+    jcr:primaryType="cq:Template"
+    jcr:title="AEM Mobile runtime"
+    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?]"
+    pge-type="app-publish"
+    wizard="/libs/mobileapps/dps/admin/content/createpublishappsteps.html">
+    <jcr:content
+        cq:allowedTemplates="[/apps/we-unlimited-app/templates/.*]"
+        cq:designPath="/etc/designs/we-unlimited-app"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="we-unlimited-app/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/dps-we-unlimited-app"
+        dps-resourceType="dps:Project"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
+        pge-type="[app-group]"/>
+</jcr:root>

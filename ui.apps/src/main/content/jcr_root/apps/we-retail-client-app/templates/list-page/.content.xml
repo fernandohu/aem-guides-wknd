@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template"
+    jcr:title="List Page"
+    allowedParents="[/apps/we-retail-client-app/templates/ionic-tab-page,/apps/we-retail-client-app/templates/article-page,/apps/we-retail-client-app/templates/list-page]"
+    allowedPaths="[/content/mobileapps(/.*)?]"
+    listFrom="children"
+    ranking="{Long}0">
+    <jcr:content
+        cq:designPath="/etc/designs/we-retail-client-app"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="we-retail-client-app/components/structure/list-page"
+        listFrom="children"
+        tagsMatch="any"/>
+</jcr:root>

@@ -7,28 +7,26 @@
     <jcr:content
         cq:name="DI_trailer.jpg"
         cq:parentPath="/content/dam/we-unlimited-app/issues/images"
-        dam:assetState="processed"
-        dam:relativePath="we-unlimited-app/issues/images/DI_trailer.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:46:33.842-03:00"
+        jcr:lastModified="{Date}2012-11-23T08:00:47.973-05:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:46:27.405-03:00"
+            dam:extracted="{Date}2012-11-23T08:00:45.976-05:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
             dam:Physicalheightindpi="{Long}-1"
-            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalheightininches="{Double}-1.0"
             dam:Physicalwidthindpi="{Long}-1"
-            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Physicalwidthininches="{Double}-1.0"
             dam:Progressive="no"
             dam:sha1="960a4908abaa6cd4c613d8cefc261c3ed42a76f0"
             dam:size="{Long}37486"
             dc:format="image/jpeg"
             dc:modified="{Date}2012-02-16T20:43:31.000-05:00"
-            jcr:lastModified="{Date}2018-04-12T22:46:33.842-03:00"
+            jcr:lastModified="{Date}2012-11-23T08:00:47.973-05:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -41,8 +39,7 @@
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:10B0B8EC50F411E1B2B5E441E3CE95D4"
-                stRef:instanceID="xmp.iid:10B0B8EB50F411E1B2B5E441E3CE95D4"
-                xmpNodeType="xmpStruct"/>
+                stRef:instanceID="xmp.iid:10B0B8EB50F411E1B2B5E441E3CE95D4"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

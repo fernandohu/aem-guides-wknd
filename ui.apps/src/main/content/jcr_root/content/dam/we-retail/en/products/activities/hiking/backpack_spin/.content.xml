@@ -10,7 +10,7 @@
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:25.268-05:00"
         dam:relativePath="we-retail/en/products/activities/hiking/backpack_spin"
         dam:s7damType="SpinSet"
-        jcr:lastModified="{Date}2018-04-12T22:45:55.401-03:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:29.649+02:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
@@ -22,7 +22,7 @@
             dc:format="Multipart/Related; type=application/x-SpinSet"
             dc:modified="{Date}2014-05-15T16:10:06.317-07:00"
             dc:title="Backpack Spin"
-            jcr:lastModified="{Date}2018-04-12T22:45:55.400-03:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:29.649+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

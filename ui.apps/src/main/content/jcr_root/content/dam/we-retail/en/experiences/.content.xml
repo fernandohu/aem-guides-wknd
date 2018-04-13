@@ -4,7 +4,5 @@
     <arctic-surfing-in-lofoten/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Experiences">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Experiences"/>
 </jcr:root>

@@ -8,15 +8,14 @@
         cq:name="Product_catalog.jpg"
         cq:parentPath="/content/dam/we-retail/en/products"
         dam:assetID="aaid:6d0c4d76683d436891a9b3964768a360"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/products/Product_catalog.jpg"
         dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-04-12T22:46:25.893-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:17:36.216+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:46:24.379-03:00"
+            dam:extracted="{Date}2016-09-12T17:17:35.732+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -35,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2018-04-12T22:46:25.892-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:17:20.363+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -58,9 +57,7 @@
             xmpMM:InstanceID="xmp.iid:3f5c4266-d0a9-46d7-ad2b-a9182b644528"
             xmpMM:OriginalDocumentID="28417B7C7607E1400DFD1C96CF585105"
             writebackEnable="{Boolean}true">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpNodeType="xmpStruct"/>
+            <xmpMM:History jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

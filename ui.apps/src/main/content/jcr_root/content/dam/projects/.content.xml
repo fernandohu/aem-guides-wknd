@@ -3,5 +3,6 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="Projects">
+    <rep:policy/>
     <we-retail/>
 </jcr:root>

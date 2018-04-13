@@ -3,9 +3,7 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Music Festivals">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Music Festivals"/>
     <meet-canada-s-hip-hop-royalty_TOC.png/>
     <summer-blockbuster-hits-and-misses_TOC.png/>
     <the-lineup-you-ve-been-waiting-for_TOC.png/>

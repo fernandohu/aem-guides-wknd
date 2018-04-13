@@ -6,7 +6,5 @@
     <man-snowboarder.jpg/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Snowboarding">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Snowboarding"/>
 </jcr:root>

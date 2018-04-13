@@ -1,0 +1,69 @@
+/*
+ *
+ * Copyright 2016 Adobe Systems Incorporated
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.instore-StarRatingView {
+  text-align: center;
+  margin: 14px 0;
+}
+
+.instore-StarRatingView-title {
+  color: #0a0a0a;
+  margin-bottom: 20px;
+}
+
+.instore-StarRatingView-rate {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 22px;
+}
+
+.instore-StarRatingView-rate-frame {
+  position: absolute;
+  left: 0;
+  color: rgb(189, 189, 189);
+  font-style: normal;
+
+  &:before {
+    content: "\2605";
+  }
+
+}
+
+.instore-StarRatingView-rate-fill {
+  position: absolute;
+  left: 0;
+  color: @highlight-color;
+  font-style: normal;
+  visibility: hidden;
+  z-index: 1;
+
+  &:before {
+    content: "\2605";
+  }
+
+}
+
+.instore-StarRatingView-rate.is-filled > .instore-StarRatingView-rate-fill {
+  visibility: visible;
+}
+
+.instore-StarRatingView-count {
+  color: #0a0a0a;
+  margin-left: 10px;
+  display: inline-block;
+}

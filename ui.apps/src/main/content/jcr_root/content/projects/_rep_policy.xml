@@ -5,33 +5,37 @@
         jcr:primaryType="rep:GrantACE"
         rep:principalName="compat-codeupgrade-service"
         rep:privileges="{Name}[jcr:modifyAccessControl,jcr:read,jcr:readAccessControl,rep:write]"/>
-    <allow1
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="translation-job-service"
-        rep:privileges="{Name}[jcr:removeChildNodes,jcr:modifyAccessControl,jcr:modifyProperties,jcr:read,jcr:addChildNodes,jcr:readAccessControl,jcr:nodeTypeManagement]"/>
-    <deny2
+    <deny1
         jcr:primaryType="rep:DenyACE"
         rep:principalName="everyone"
         rep:privileges="{Name}[jcr:all]"/>
-    <allow3
+    <allow2
         jcr:primaryType="rep:GrantACE"
         rep:principalName="projects-administrators"
         rep:privileges="{Name}[jcr:removeChildNodes,jcr:modifyAccessControl,jcr:modifyProperties,jcr:read,jcr:addChildNodes,jcr:readAccessControl,jcr:nodeTypeManagement]"/>
-    <allow4
+    <allow3
         jcr:primaryType="rep:GrantACE"
         rep:principalName="projects-users"
         rep:privileges="{Name}[jcr:read]"/>
-    <allow5
+    <allow4
         jcr:primaryType="rep:GrantACE"
         rep:principalName="projects-service"
         rep:privileges="{Name}[jcr:read]"/>
-    <allow6
+    <allow5
         jcr:primaryType="rep:GrantACE"
         rep:principalName="projects-service"
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:glob="*/jcr:content/tasks"/>
+    </allow5>
+    <allow6
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="projects-service"
+        rep:privileges="{Name}[jcr:all]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="*/jcr:content/tasks/*"/>
     </allow6>
     <allow7
         jcr:primaryType="rep:GrantACE"
@@ -39,7 +43,7 @@
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:glob="*/jcr:content/tasks/*"/>
+            rep:glob="*/jcr:content/work"/>
     </allow7>
     <allow8
         jcr:primaryType="rep:GrantACE"
@@ -47,14 +51,14 @@
         rep:privileges="{Name}[jcr:all]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:glob="*/jcr:content/work"/>
+            rep:glob="*/jcr:content/work/*"/>
     </allow8>
     <allow9
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="projects-service"
-        rep:privileges="{Name}[jcr:all]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="*/jcr:content/work/*"/>
-    </allow9>
+        rep:principalName="projects-purge-service"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow10
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="translation-job-service"
+        rep:privileges="{Name}[jcr:removeChildNodes,jcr:modifyAccessControl,jcr:modifyProperties,jcr:read,jcr:addChildNodes,jcr:readAccessControl,jcr:nodeTypeManagement]"/>
 </jcr:root>

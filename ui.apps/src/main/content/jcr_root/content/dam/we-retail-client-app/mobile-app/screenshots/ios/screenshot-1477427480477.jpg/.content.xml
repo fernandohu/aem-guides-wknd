@@ -11,12 +11,12 @@
         dam:copiedAt="{Date}2016-10-26T13:27:26.598-04:00"
         dam:parentAssetID="7df3b5d1-d6f7-4ba3-8fa8-edde292d2013"
         dam:relativePath="we-retail-client-app/mobile-app/screenshots/ios/screenshot-1477427480477.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:46:33.625-03:00"
+        jcr:lastModified="{Date}2016-10-26T13:27:26.867-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:46:26.329-03:00"
+            dam:extracted="{Date}2016-10-26T13:27:26.609-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -33,7 +33,7 @@
             exif:ColorSpace="{Long}1"
             exif:PixelXDimension="{Long}750"
             exif:PixelYDimension="{Long}1334"
-            jcr:lastModified="{Date}2018-04-12T22:46:33.625-03:00"
+            jcr:lastModified="{Date}2016-10-26T13:27:24.111-04:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1334"

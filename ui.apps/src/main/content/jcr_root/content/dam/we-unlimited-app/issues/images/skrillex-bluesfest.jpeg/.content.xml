@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="9cf7b85f-85c5-4c97-88a6-36598c6fed1b">
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
     <jcr:content
-        cq:name="skrillex-bluesfest.jpeg"
-        cq:parentPath="/content/dam/we-unlimited-app/issues/images"
-        dam:assetState="processed"
-        dam:relativePath="we-unlimited-app/issues/images/skrillex-bluesfest.jpeg"
-        jcr:lastModified="{Date}2018-04-12T22:46:35.827-03:00"
+        jcr:lastModified="{Date}2012-11-30T12:01:57.632+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -18,29 +11,27 @@
             dam:ExifImageLength="{Long}876"
             dam:ExifImageWidth="{Long}1170"
             dam:ExifOffset="{Long}166"
-            dam:extracted="{Date}2018-04-12T22:46:25.201-03:00"
+            dam:extracted="{Date}2012-11-30T12:01:56.860+01:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
             dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}12.166666984558105"
+            dam:Physicalheightininches="{Double}12.166666984558105"
             dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}16.25"
+            dam:Physicalwidthininches="{Double}16.25"
             dam:Progressive="no"
             dam:sha1="db3aa0edc741034a362c74c0e59baf52da767156"
             dam:size="{Long}41011"
             dc:format="image/jpeg"
             dc:modified="{Date}2012-11-30T12:01:57.633+01:00"
-            jcr:lastModified="{Date}2018-04-12T22:46:35.827-03:00"
+            jcr:lastModified="{Date}2012-11-30T12:01:57.632+01:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}876"
             tiff:ImageWidth="{Long}1170"
-            xmp:CreateDate="{Date}2012-10-23T16:15:18.000-02:00"
-            xmp:CreatorTool="Adobe Photoshop CS5.1 Macintosh"
-            xmp:ModifyDate="{Date}2012-10-23T16:35:24.000-02:00"/>
+            xmp:CreatorTool="Adobe Photoshop CS5.1 Macintosh"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

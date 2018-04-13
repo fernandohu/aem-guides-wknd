@@ -69,4 +69,8 @@
         jcr:primaryType="rep:GrantACE"
         rep:principalName="forms-users"
         rep:privileges="{Name}[crx:replicate,rep:write]"/>
+    <allow17
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="dynamic-media-s7sync"
+        rep:privileges="{Name}[jcr:all]"/>
 </jcr:root>

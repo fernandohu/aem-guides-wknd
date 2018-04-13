@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Forgot UserId"
-        jcr:uuid="44a19e0c-8ac1-4ca2-bf61-ae1e21e3eb1f"
+        jcr:uuid="77d1090d-adce-4b14-957f-ecd5821a9c49"
         sling:resourceType="social/console/components/basepage"
         hideInNav="{Boolean}true"
         navTitle="Forgot UserId">

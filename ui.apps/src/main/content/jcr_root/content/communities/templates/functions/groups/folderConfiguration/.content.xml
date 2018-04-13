@@ -3,5 +3,5 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="sling:Folder"
-    jcr:uuid="5f91c032-ca80-4112-9462-a919c0e53f63"
+    jcr:uuid="4644bfec-f42f-49da-aa98-954cfeb38eeb"
     sling:resourceType="social/group/components/hbs/groupcollection/groupfolder"/>

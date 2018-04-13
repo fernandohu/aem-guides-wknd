@@ -7,14 +7,13 @@
     <jcr:content
         cq:name="running-trail-man.jpg"
         cq:parentPath="/content/dam/we-retail/en/activities/running"
-        dam:assetState="processed"
         dam:relativePath="we-retail/en/activities/running/running-trail-man.jpg"
-        jcr:lastModified="{Date}2018-04-12T22:45:30.579-03:00"
+        jcr:lastModified="{Date}2016-09-12T17:17:11.529+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-12T22:45:29.995-03:00"
+            dam:extracted="{Date}2016-09-12T17:17:09.428+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -35,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2018-04-12T22:45:24.324-03:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:38.261+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    allowProxy="true"
+    categories="[screens.we-retail]"
+    embed="[lodash,jquery,backbone,sistinejs,sistinejs.backbone,granite.csrf.standalone,screens.vendor.es6promise,screens.vendor.require,screens.vendor.eventemitter,screens.vendor.pointerevents,screens.vendor.jquerytransit,screens.windowio,screens.libs,screens.core,screens.ux]"
+    jsProcessor="[default:none,min:gcc]"/>

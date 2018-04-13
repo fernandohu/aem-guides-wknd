@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    jcr:title="Component Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-12-06T13:10:44.762-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Comments"
+        jcr:uuid="e479282b-9eed-4f6e-a952-0d13cf5d7356"
+        sling:resourceType="/apps/community-components/components/componentpage"
+        navTitle="Home">
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="/apps/community-components/components/header"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2013-12-06T11:35:15.808-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-12-06T11:35:15.808-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/title"/>
+            <clientlibslist
+                jcr:created="{Date}2013-12-06T13:01:47.362-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-12-06T13:10:44.759-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="community-components/components/clientlibslist"/>
+        </content>
+        <ide
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="/apps/community-components/components/ide">
+            <templates
+                jcr:lastModified="{Date}2013-12-06T12:29:31.773-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="community-components/components/templateeditor"/>
+            <css
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/community-components/components/csseditor"/>
+            <data
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/community-components/components/dataeditor"/>
+        </ide>
+    </jcr:content>
+</jcr:root>
