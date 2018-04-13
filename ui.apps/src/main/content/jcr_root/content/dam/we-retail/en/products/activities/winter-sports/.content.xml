@@ -3,6 +3,8 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Winter Sports"/>
+        jcr:title="Winter Sports">
+        <folderThumbnail/>
+    </jcr:content>
     <Snowboard.jpg/>
 </jcr:root>

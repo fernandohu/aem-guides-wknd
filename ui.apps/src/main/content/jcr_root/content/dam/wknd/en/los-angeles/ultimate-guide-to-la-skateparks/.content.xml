@@ -10,7 +10,7 @@
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/ultimate-guide-to-la-skateparks"
         jcr:description="The article body for the Ultimate Guide to LA Skateparks"
-        jcr:lastModified="{Date}2018-04-10T10:45:37.296-03:00"
+        jcr:lastModified="{Date}2018-04-12T22:46:35.749-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Ultimate Guide to LA Skateparks"
@@ -22,12 +22,12 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <metadata
-            dam:extracted="{Date}2018-04-10T10:45:37.226-03:00"
+            dam:extracted="{Date}2018-04-12T22:46:31.040-03:00"
             dam:sha1="6066c15f26408b58fdfaa69475ae18a60fcc619e"
             dam:size="{Long}3436"
             dc:format="text/html"
             dc:modified="{Date}2017-06-13T14:28:03.403-04:00"
-            jcr:lastModified="{Date}2018-02-04T13:44:42.348-05:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:35.749-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

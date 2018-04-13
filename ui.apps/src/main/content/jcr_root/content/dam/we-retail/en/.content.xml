@@ -6,7 +6,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="English"/>
+        jcr:title="English">
+        <folderThumbnail/>
+    </jcr:content>
     <activities/>
     <people/>
     <products/>

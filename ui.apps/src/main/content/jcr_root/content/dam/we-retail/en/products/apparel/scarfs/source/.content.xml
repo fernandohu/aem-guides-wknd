@@ -3,7 +3,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Source"/>
+        jcr:title="Source">
+        <folderThumbnail/>
+    </jcr:content>
     <Zurich.jpg/>
     <Zurich_x0020_Half_x0020_Rolled.jpg/>
     <Zurich_x0020_Rolled.jpg/>

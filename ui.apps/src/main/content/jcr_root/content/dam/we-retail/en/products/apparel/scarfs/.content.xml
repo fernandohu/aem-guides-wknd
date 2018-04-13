@@ -4,7 +4,9 @@
     <jcr:content
         dam:relativePath="we-retail/en/products/apparel/scarfs"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Scarfs"/>
+        jcr:title="Scarfs">
+        <folderThumbnail/>
+    </jcr:content>
     <zurich/>
     <source/>
     <Scarfs.jpg/>

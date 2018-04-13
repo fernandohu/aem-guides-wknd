@@ -6,15 +6,18 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="AEM62App/Lista_imoveis_SP.zip"
-        jcr:lastModified="{Date}2018-04-08T18:56:13.670-03:00"
+        jcr:lastModified="{Date}2018-04-12T22:44:57.737-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-08T18:56:13.114-03:00"
+            dam:extracted="{Date}2018-04-12T22:44:56.302-03:00"
             dam:FileCount="{Long}0"
             dam:sha1="5fcac398932c1cfa439f094baadf8914ddf617dd"
             dam:size="{Long}234145"
             dc:format="application/zip"
+            dc:modified="{Date}2018-04-12T22:44:57.737-03:00"
+            jcr:lastModified="{Date}2018-04-12T22:44:57.735-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

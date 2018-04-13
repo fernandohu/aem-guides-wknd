@@ -35,11 +35,9 @@
                     sling:resourceSuperType="sling/collection"
                     sling:resourceType="dam/collection">
                     <sling:members jcr:primaryType="nt:unstructured"/>
-                    <rep:policy/>
                 </lightbox>
             </haxYffdbhiU55cqk7X14>
         </h>
-        <rep:policy/>
         <a jcr:primaryType="nt:unstructured">
             <admin jcr:primaryType="nt:unstructured">
                 <recently_modifiedassets
@@ -52,7 +50,6 @@
                     sling:resourceSuperType="sling/collection"
                     sling:resourceType="dam/smartcollection">
                     <sling:members jcr:primaryType="nt:unstructured"/>
-                    <rep:policy/>
                 </recently_modifiedassets>
                 <recently_checkoutassets
                     dam:query="8_group.0_property=jcr:content/cq:drivelock&#xa;8_group.0_property.operation=exists&#xa;8_group.0_property.value=true&#xa;type=dam:Asset&#xa;path=/content/dam&#xa;mainasset=true&#xa;location.suggestion=Assets"
@@ -64,14 +61,12 @@
                     sling:resourceSuperType="sling/collection"
                     sling:resourceType="dam/smartcollection">
                     <sling:members jcr:primaryType="nt:unstructured"/>
-                    <rep:policy/>
                 </recently_checkoutassets>
             </admin>
         </a>
         <public
             jcr:mixinTypes="[rep:AccessControllable]"
             jcr:primaryType="nt:unstructured">
-            <rep:policy/>
             <checkoutassets
                 dam:query="path=/content/dam&#xa;mainasset=true&#xa;type=dam:Asset&#xa;checkoutbycurrentuser"
                 jcr:lastModified="{Date}2017-01-13T16:47:09.951+01:00"
@@ -82,7 +77,6 @@
                 sling:resourceSuperType="sling/collection"
                 sling:resourceType="dam/smartcollection">
                 <sling:members jcr:primaryType="nt:unstructured"/>
-                <rep:policy/>
             </checkoutassets>
         </public>
     </collections>

@@ -4,7 +4,7 @@
     <jcr:content
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:10.855-05:00"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2016-04-06T19:50:51.493+02:00"
+        jcr:lastModified="{Date}2018-04-12T22:45:52.640-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -14,7 +14,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2016-01-10T21:07:49.385-08:00"
             dc:title="Neutrino"
-            jcr:lastModified="{Date}2016-04-06T19:50:51.493+02:00"
+            jcr:lastModified="{Date}2018-04-12T22:45:52.640-03:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

@@ -10,6 +10,7 @@
         cq:name="El Greco.jpg"
         cq:parentPath="/content/dam/we-retail/en/products/activities/surfing/source"
         dam:assetID="aaid:56522411a7ed4d6c9c3a90a429ffef54"
+        dam:assetState="processed"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:01.239-05:00"
         dam:relativePath="we-retail/en/products/activities/surfing/source/El Greco.jpg"
         dam:s7damAnchorX="{Long}918"
@@ -17,12 +18,12 @@
         dam:s7damHeight="{Long}1080"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}1837"
-        jcr:lastModified="{Date}2016-09-12T17:17:51.755+05:30"
+        jcr:lastModified="{Date}2018-04-12T22:45:50.097-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:17:51.021+05:30"
+            dam:extracted="{Date}2018-04-12T22:45:49.958-03:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -41,7 +42,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1837"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2016-09-12T17:17:39.287+05:30"
+            jcr:lastModified="{Date}2018-04-12T22:45:43.531-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -64,7 +65,9 @@
             xmpMM:InstanceID="xmp.iid:23208231-6783-4041-85a9-5913ec133e66"
             xmpMM:OriginalDocumentID="6A3B127DDB50CBA53F8B626706BF9905"
             writebackEnable="{Boolean}true">
-            <xmpMM:History jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

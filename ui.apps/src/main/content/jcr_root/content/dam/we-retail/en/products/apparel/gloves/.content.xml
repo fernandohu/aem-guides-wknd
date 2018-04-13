@@ -4,7 +4,9 @@
     <jcr:content
         dam:relativePath="we-retail/en/products/apparel/gloves"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Gloves"/>
+        jcr:title="Gloves">
+        <folderThumbnail/>
+    </jcr:content>
     <Classic_x0020_Leather.jpg/>
     <Comfort_x0020_Gel.jpg/>
     <Midweight_x0020_Fleece.jpg/>

@@ -4,7 +4,7 @@
     <jcr:content
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:10.840-05:00"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2016-04-06T19:50:22.564+02:00"
+        jcr:lastModified="{Date}2018-04-12T22:45:59.395-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -14,7 +14,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2016-01-08T12:45:14.312-08:00"
             dc:title="Sequoia"
-            jcr:lastModified="{Date}2016-04-06T19:50:22.564+02:00"
+            jcr:lastModified="{Date}2018-04-12T22:45:59.395-03:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

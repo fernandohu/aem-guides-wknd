@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/rob-potter-422534.jpg"
-        jcr:lastModified="{Date}2018-04-10T10:45:41.390-03:00"
+        jcr:lastModified="{Date}2018-04-12T22:46:34.984-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-10T10:45:40.381-03:00"
+            dam:extracted="{Date}2018-04-12T22:46:27.074-03:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}2391447"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:40.897-05:00"
-            jcr:lastModified="{Date}2018-02-04T13:44:40.897-05:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:34.984-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

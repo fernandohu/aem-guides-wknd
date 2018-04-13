@@ -3,7 +3,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Water Sports"/>
+        jcr:title="Water Sports">
+        <folderThumbnail/>
+    </jcr:content>
     <Manta_x0020_Ray.jpg/>
     <Pufferfish_x0020_Blue.jpg/>
     <Swim_x0020_Goggles_x0020_Green.jpg/>

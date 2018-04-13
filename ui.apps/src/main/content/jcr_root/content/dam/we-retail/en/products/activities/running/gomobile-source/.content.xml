@@ -5,7 +5,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Source"/>
+        jcr:title="Source">
+        <folderThumbnail/>
+    </jcr:content>
     <GoMobile_x0020_Wrist.jpg/>
     <GoMobile_x0020_Detail.jpg/>
     <GoMobile_x0020_In_x0020_Action.jpg/>

@@ -5,15 +5,18 @@
     jcr:uuid="4240272b-4721-4406-b8c0-54d6c9aacac8">
     <jcr:content
         dam:relativePath="formsanddocuments-themes/themeLibrary/simpleEnrollmentTheme"
-        jcr:lastModified="{Date}2016-07-04T18:19:28.628+05:30"
+        jcr:lastModified="{Date}2018-04-12T22:46:34.250-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         sling:resourceType="fd/fm/theme/render"
         theme="1">
         <metadata
             dc:format="application/octet-stream"
+            dc:modified="{Date}2018-04-12T22:46:34.250-03:00"
             fd:targetVersion="1.1"
             fd:version="1.1"
+            jcr:lastModified="{Date}2018-04-12T22:46:34.249-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             clientlibCategory="fdtheme.themeLibrary.simpleEnrollmentTheme"
             clientlibRef="/etc/clientlibs/fd/themes/themeLibrary"

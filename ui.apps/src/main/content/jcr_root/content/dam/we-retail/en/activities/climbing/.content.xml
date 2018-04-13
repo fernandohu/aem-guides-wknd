@@ -10,5 +10,7 @@
     <kalymnos-island-male.jpg/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Climbing"/>
+        jcr:title="Climbing">
+        <folderThumbnail/>
+    </jcr:content>
 </jcr:root>

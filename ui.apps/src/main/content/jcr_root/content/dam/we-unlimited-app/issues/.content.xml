@@ -5,6 +5,8 @@
     <images/>
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Issues"/>
+        jcr:title="Issues">
+        <folderThumbnail/>
+    </jcr:content>
     <issue1/>
 </jcr:root>

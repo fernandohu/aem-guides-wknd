@@ -3,7 +3,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Hiking"/>
+        jcr:title="Hiking">
+        <folderThumbnail/>
+    </jcr:content>
     <backpack/>
     <backpack_colors/>
     <backpack_spin/>

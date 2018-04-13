@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-12T20:56:32.932-03:00"
+        cq:lastModified="{Date}2018-04-13T00:01:35.806-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-template-page"
         jcr:primaryType="cq:PageContent"
@@ -120,6 +120,22 @@
                     sortOrder="asc"
                     tagsMatch="any"/>
             </responsivegrid_1148605312>
+            <responsivegrid_584670469 jcr:primaryType="nt:unstructured">
+                <list
+                    cq:styleIds="[1523490530387]"
+                    jcr:lastModified="{Date}2018-04-13T00:01:35.799-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="children"
+                    parentPage="/content/wknd/first-article"
+                    showDescription="false"
+                    showModificationDate="true"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+            </responsivegrid_584670469>
         </root>
     </jcr:content>
 </jcr:root>

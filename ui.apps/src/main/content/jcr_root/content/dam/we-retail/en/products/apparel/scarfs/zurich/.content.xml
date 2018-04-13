@@ -4,7 +4,7 @@
     <jcr:content
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:53.410-05:00"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2016-04-06T19:51:24.874+02:00"
+        jcr:lastModified="{Date}2018-04-12T22:46:19.419-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -14,7 +14,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2016-01-08T12:29:58.562-08:00"
             dc:title="Zurich"
-            jcr:lastModified="{Date}2016-04-06T19:51:24.874+02:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:19.417-03:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

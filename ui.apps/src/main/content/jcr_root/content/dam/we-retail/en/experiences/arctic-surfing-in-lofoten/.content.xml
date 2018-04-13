@@ -3,7 +3,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Arctic Surfing in Lofoten"/>
+        jcr:title="Arctic Surfing in Lofoten">
+        <folderThumbnail/>
+    </jcr:content>
     <arctic-surfing-in-lofoten/>
     <camp-fire.jpg/>
     <camp-tent.jpg/>

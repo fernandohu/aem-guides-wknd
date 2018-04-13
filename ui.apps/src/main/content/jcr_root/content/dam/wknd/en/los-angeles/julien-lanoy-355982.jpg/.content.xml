@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/julien-lanoy-355982.jpg"
-        jcr:lastModified="{Date}2018-04-10T10:45:40.192-03:00"
+        jcr:lastModified="{Date}2018-04-12T22:46:36.787-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-10T10:45:40.062-03:00"
+            dam:extracted="{Date}2018-04-12T22:46:33.877-03:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}3506804"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:37.808-05:00"
-            jcr:lastModified="{Date}2018-02-04T13:44:37.808-05:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:36.787-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

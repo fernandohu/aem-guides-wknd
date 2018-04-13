@@ -7,20 +7,21 @@
     <jcr:content
         cq:name="arctic-surfing-in-lofoten"
         cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/arctic-surfing-in-lofoten"
         jcr:description="Surfing in Northern Norway"
-        jcr:lastModified="{Date}2016-09-12T17:16:55.209+05:30"
+        jcr:lastModified="{Date}2018-04-12T22:46:30.595-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Arctic Surfing in Lofoten"
         contentFragment="{Boolean}true">
         <metadata
-            dam:extracted="{Date}2016-09-12T17:16:55.037+05:30"
+            dam:extracted="{Date}2018-04-12T22:46:18.019-03:00"
             dam:sha1="5c4f10e08ca51e9d882a4f19e800548f7aac3612"
             dam:size="{Long}5773"
             dc:format="text/html"
             dc:modified="{Date}2016-03-12T16:11:03.153+01:00"
-            jcr:lastModified="{Date}2016-03-14T00:53:17.508+01:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:30.594-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

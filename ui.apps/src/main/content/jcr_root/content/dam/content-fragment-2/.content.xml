@@ -10,7 +10,7 @@
         dam:assetState="processed"
         dam:relativePath="content-fragment-2"
         jcr:description=""
-        jcr:lastModified="{Date}2018-04-11T20:41:33.984-03:00"
+        jcr:lastModified="{Date}2018-04-12T22:44:50.719-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Content Fragment 2"
@@ -22,10 +22,13 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <metadata
-            dam:extracted="{Date}2018-04-11T20:41:33.777-03:00"
+            dam:extracted="{Date}2018-04-12T22:44:50.417-03:00"
             dam:sha1="329421e28f09f61af8d00477b3bc20a7c1c87f0c"
             dam:size="{Long}809"
             dc:format="text/html"
+            dc:modified="{Date}2018-04-12T22:44:38.909-03:00"
+            jcr:lastModified="{Date}2018-04-12T22:44:38.908-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <model
