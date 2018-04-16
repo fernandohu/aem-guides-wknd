@@ -7,8 +7,9 @@
     <jcr:content
         cq:name="fjord-waves.jpg"
         cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"
-        jcr:lastModified="{Date}2016-09-12T17:16:07.517+05:30"
+        jcr:lastModified="{Date}2018-04-12T22:46:23.319-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -123,7 +124,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}14"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:16:06.470+05:30"
+            dam:extracted="{Date}2018-04-12T22:46:18.282-03:00"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1 600"
@@ -140,7 +141,7 @@
             dam:size="{Long}215673"
             dam:SubSecTime="{Long}0"
             dam:TimeCreated="140859+0200"
-            dc:date="[20150929]"
+            dc:date="{Long}[20150929]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -182,7 +183,7 @@
             exifEX:PhotographicSensitivity="{Long}800"
             exifEX:RecommendedExposureIndex="{Long}800"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2016-09-12T17:15:56.645+05:30"
+            jcr:lastModified="{Date}2018-04-12T22:46:23.319-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        dam:folderThumbnailPaths="[/content/dam/we-unlimited-app/issues/issue1/meet-canada-s-hip-hop-royalty_TOC.png,/content/dam/we-unlimited-app/issues/issue1/the-lineup-you-ve-been-waiting-for_TOC.png,/content/dam/we-unlimited-app/issues/issue1/summer-blockbuster-hits-and-misses_TOC.png]"
+        jcr:primaryType="nt:unstructured"
+        bgcolor="{Long}-1"
+        height="{Long}140"
+        width="{Long}240"/>
+</jcr:root>

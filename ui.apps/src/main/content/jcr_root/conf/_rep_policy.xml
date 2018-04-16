@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:crx="http://www.day.com/crx/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:primaryType="rep:ACL">
     <allow
         jcr:primaryType="rep:GrantACE"
@@ -47,38 +47,6 @@
     </allow7>
     <allow8
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="operators"
-        rep:privileges="{Name}[jcr:read,rep:write]"/>
-    <allow9
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="dam-replication-service"
-        rep:privileges="{Name}[jcr:read,crx:replicate]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/*/dam/search/facets/*"/>
-    </allow9>
-    <allow10
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="dam-replication-service"
-        rep:privileges="{Name}[jcr:read,crx:replicate]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:glob="/*/dam/adminui-extension/metadataschema/*"/>
-    </allow10>
-    <allow11
-        jcr:primaryType="rep:GrantACE"
         rep:principalName="repository-change-listener-service"
         rep:privileges="{Name}[jcr:read]"/>
-    <allow12
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="workflow-process-service"
-        rep:privileges="{Name}[jcr:versionManagement,jcr:write,jcr:read]"/>
-    <allow13
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="wcm-workflow-service"
-        rep:privileges="{Name}[jcr:read]"/>
-    <allow14
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="version-manager-service"
-        rep:privileges="{Name}[jcr:versionManagement,jcr:read,rep:write]"/>
 </jcr:root>

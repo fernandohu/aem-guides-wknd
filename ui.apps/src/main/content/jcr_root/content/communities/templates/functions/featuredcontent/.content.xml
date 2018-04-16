@@ -11,7 +11,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Featured Content"
-        jcr:uuid="281a8c67-c990-43a5-8ca2-7ef09c2755cc"
+        jcr:uuid="3151f90b-a790-42b6-be10-db2be6b56b6b"
         sling:resourceType="social/console/components/basepage"
         etcpath="/etc/community/templates/functions/reference/featuredcontent"
         navTitle="Featured Content">

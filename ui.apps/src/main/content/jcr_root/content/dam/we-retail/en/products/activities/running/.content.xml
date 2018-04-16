@@ -6,7 +6,9 @@
         cq:lastModifiedBy="admin"
         dam:relativePath="we-retail/en/products/activities/running"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Running"/>
+        jcr:title="Running">
+        <folderThumbnail/>
+    </jcr:content>
     <gomobile/>
     <watter_bottle/>
     <gomobile-source/>

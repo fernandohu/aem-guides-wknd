@@ -9,7 +9,9 @@
         cq:lastModifiedBy="admin"
         dam:relativePath="we-retail/en/products/activities/hiking/backpack"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Source"/>
+        jcr:title="Source">
+        <folderThumbnail/>
+    </jcr:content>
     <Backpack_C.jpg/>
     <Backpack_H.jpg/>
     <Frame_x0020_13.jpg/>

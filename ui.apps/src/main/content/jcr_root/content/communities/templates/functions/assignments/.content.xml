@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Assignments"
-        jcr:uuid="3e7a5dae-af2b-4d34-a013-0ba83b0c6fdb"
+        jcr:uuid="4bb758ce-84f2-4fa2-b2ff-a33c5d2ec67a"
         sling:resourceType="social/console/components/basepage"
         navTitle="Assignments">
         <clientlibslist

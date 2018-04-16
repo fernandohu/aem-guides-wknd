@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Reset Password Page"
-        jcr:uuid="8e076be3-0f9e-41c8-9b9c-6e50fcb57f9e"
+        jcr:uuid="5c0722c4-614d-4ab7-87b9-e10d8dfeecc3"
         sling:resourceType="social/console/components/basepage"
         hideInNav="{Boolean}true"
         navTitle="Reset Password">

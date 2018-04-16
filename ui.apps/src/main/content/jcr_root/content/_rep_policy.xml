@@ -295,30 +295,30 @@
     </allow50>
     <allow51
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="communities-ugc-writer"
+        rep:principalName="account-manager"
         rep:privileges="{Name}[jcr:read]"/>
     <allow52
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="communities-acl-manager"
-        rep:privileges="{Name}[jcr:modifyAccessControl,jcr:read,jcr:readAccessControl,jcr:nodeTypeManagement]"/>
-    <allow53
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="communities-enablement-property-writer"
-        rep:privileges="{Name}[jcr:read]"/>
-    <allow54
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="account-manager"
-        rep:privileges="{Name}[jcr:read]"/>
-    <allow55
-        jcr:primaryType="rep:GrantACE"
         rep:principalName="contentsync-service"
         rep:privileges="{Name}[jcr:read]"/>
-    <allow56
+    <allow53
         jcr:primaryType="rep:GrantACE"
         rep:principalName="translation-job-service"
         rep:privileges="{Name}[jcr:versionManagement,jcr:read,rep:write]"/>
-    <allow57
+    <allow54
         jcr:primaryType="rep:GrantACE"
         rep:principalName="repository-change-listener-service"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow55
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="communities-ugc-writer"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow56
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="communities-acl-manager"
+        rep:privileges="{Name}[jcr:modifyAccessControl,jcr:read,jcr:readAccessControl,jcr:nodeTypeManagement]"/>
+    <allow57
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="communities-enablement-property-writer"
         rep:privileges="{Name}[jcr:read]"/>
 </jcr:root>

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4d305ab0-5e02-4374-bcc3-24ff339ef546">
     <jcr:content
+        cq:name="we-retail-instore-logo.png"
+        cq:parentPath="/content/dam/we-retail-screens"
         dam:assetState="processed"
         dam:relativePath="we-retail-screens/we-retail-instore-logo.png"
-        jcr:lastModified="{Date}2016-12-16T10:56:04.348+01:00"
+        jcr:lastModified="{Date}2018-04-12T22:44:59.650-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmp:CreatorTool=&quot;Adobe Photoshop CC 2017 (Macintosh)&quot; xmpMM:InstanceID=&quot;xmp.iid:A50DDFB1B45C11E69D9FC92C0A8EB3C8&quot; xmpMM:DocumentID=&quot;xmp.did:A50DDFB2B45C11E69D9FC92C0A8EB3C8&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:41EEB2C4B24A11E69D9FC92C0A8EB3C8&quot; stRef:documentID=&quot;xmp.did:A50DDFB0B45C11E69D9FC92C0A8EB3C8&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2016-12-16T10:56:03.959+01:00"
+            dam:extracted="{Date}2018-04-12T22:44:44.537-03:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -25,6 +28,9 @@
             dam:sha1="f6b248cf7506f57f57ffc59a85067e0d01b32e6e"
             dam:size="{Long}16613"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-12T22:44:59.650-03:00"
+            jcr:lastModified="{Date}2018-04-12T22:44:59.642-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}80"

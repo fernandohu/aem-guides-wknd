@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ideation"
-        jcr:uuid="5f3f2f85-6919-43f8-8c7e-790ae48cfe14"
+        jcr:uuid="351c5add-f79a-427c-abd6-6c16338aaad3"
         sling:resourceType="social/console/components/basepage"
         etcpath="/etc/community/templates/functions/reference/ideation"
         navTitle="Ideation">

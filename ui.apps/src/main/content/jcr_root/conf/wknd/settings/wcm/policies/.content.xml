@@ -29,7 +29,7 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Structure]">
                         <jcr:content
-                            cq:lastReplicated="{Date}2018-04-11T22:36:05.892-03:00"
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
                             cq:lastReplicatedBy="admin"
                             cq:lastReplicationAction="Activate"
                             jcr:mixinTypes="[cq:ReplicationStatus]"
@@ -56,6 +56,21 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_21739536549823>
+                    <policy_19977409616579
+                        cq:styleDefaultClasses="cmp-layout-container--footer full-width"
+                        jcr:lastModified="{Date}2018-04-15T21:28:13.200-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:WKND.Content,group:WKND.Structure]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_19977409616579>
                 </responsivegrid>
             </components>
         </foundation>
@@ -247,6 +262,79 @@
                     </policy_1523491559134>
                 </breadcrumb>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1523838378042
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:lastModified="{Date}2018-04-15T21:28:29.412-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1523838378042>
+                    <policy_20782049384918
+                        jcr:lastModified="{Date}2018-04-15T22:02:02.047-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Header "
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_20782049384918>
+                </navigation>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1523839261691
+                        jcr:lastModified="{Date}2018-04-15T21:56:23.999-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1523839261691>
+                </header>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1523839396861
+                        jcr:lastModified="{Date}2018-04-15T21:54:03.510-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Quick Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="10"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-04-15T22:03:05.241-03:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1523839396861>
+                </search>
+            </structure>
         </components>
     </wknd>
 </jcr:root>

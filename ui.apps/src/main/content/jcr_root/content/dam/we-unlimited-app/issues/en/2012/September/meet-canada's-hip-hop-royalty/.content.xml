@@ -8,9 +8,10 @@
         cq:name="meet-canada's-hip-hop-royalty"
         cq:parentPath="/content/dam/we-unlimited-app/issues/en/2012/September"
         dam:assetID="7e911922-eeb4-4d60-919b-317e05bdbe13"
+        dam:assetState="processed"
         dam:relativePath="we-unlimited-app/issues/en/2012/September/meet-canada's-hip-hop-royalty"
         jcr:description=""
-        jcr:lastModified="{Date}2016-02-24T20:11:50.883-08:00"
+        jcr:lastModified="{Date}2018-04-12T22:46:35.193-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Meet Canada's Hip Hop Royalty"
@@ -21,12 +22,12 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <metadata
-            dam:extracted="{Date}2016-02-24T20:11:50.835-08:00"
-            dam:sha1="529b58c595899360db0fb852d6b2b9cb4447c7bb"
-            dam:size="{Long}3220"
+            dam:extracted="{Date}2018-04-12T22:46:24.749-03:00"
+            dam:sha1="e1283d083433cf8846654659fc7991c46aa44e20"
+            dam:size="{Long}3228"
             dc:format="text/x-markdown"
             dc:modified="{Date}2016-02-24T20:07:36.623-08:00"
-            jcr:lastModified="{Date}2016-02-24T20:07:36.623-08:00"
+            jcr:lastModified="{Date}2018-04-12T22:46:35.192-03:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

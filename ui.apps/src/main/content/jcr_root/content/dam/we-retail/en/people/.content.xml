@@ -3,7 +3,9 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="People"/>
+        jcr:title="People">
+        <folderThumbnail/>
+    </jcr:content>
     <womens/>
     <mens/>
 </jcr:root>

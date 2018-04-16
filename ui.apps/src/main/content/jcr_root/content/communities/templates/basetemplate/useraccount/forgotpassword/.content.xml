@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Forgot Password Page"
-        jcr:uuid="302b50c3-dc81-43b1-88c0-5fab7c84722f"
+        jcr:uuid="1111bb6d-d686-4507-86b1-9743a9c9f9c6"
         sling:resourceType="social/console/components/basepage"
         hideInNav="{Boolean}true"
         navTitle="Forgot Password">

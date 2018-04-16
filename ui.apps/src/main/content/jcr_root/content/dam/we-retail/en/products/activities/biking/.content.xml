@@ -4,7 +4,9 @@
     <jcr:content
         dam:relativePath="we-retail/en/products/activities/biking"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Cycling"/>
+        jcr:title="Cycling">
+        <folderThumbnail/>
+    </jcr:content>
     <Blast.jpg/>
     <chain_tool/>
     <sequoia/>
