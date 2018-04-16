@@ -22,7 +22,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_23179411801274>
                     <policy_23337650718656
-                        jcr:lastModified="{Date}2018-04-11T21:07:56.700-03:00"
+                        jcr:lastModified="{Date}2018-04-15T21:06:10.858-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -35,6 +35,27 @@
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
                     </policy_23337650718656>
+                    <policy_21739536549823
+                        jcr:lastModified="{Date}2018-04-12T23:58:11.245-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND List Article"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-list--upnext"
+                                        cq:styleId="1523588174855"
+                                        cq:styleLabel="Up Next"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_21739536549823>
                 </responsivegrid>
             </components>
         </foundation>
@@ -173,7 +194,7 @@
                 </text>
                 <list jcr:primaryType="nt:unstructured">
                     <policy_1523490451314
-                        jcr:lastModified="{Date}2018-04-11T22:35:50.451-03:00"
+                        jcr:lastModified="{Date}2018-04-13T00:01:28.132-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND List - Article - List"
