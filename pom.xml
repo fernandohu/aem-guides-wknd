@@ -49,6 +49,12 @@
                 <scope>provided</scope>
             </dependency>
             <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>osgi.annotation</artifactId>
+                <version>6.0.1</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.scr.annotations</artifactId>
                 <version>1.9.8</version>
@@ -135,7 +141,7 @@
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.3.0</version>
+                <version>6.3.2</version>
                 <scope>provided</scope>
                 <classifier>apis</classifier>
             </dependency>
@@ -163,19 +169,19 @@
                 <version>1</version>
                 <scope>provided</scope>
             </dependency>
-<dependency>
-    <groupId>com.adobe.cq</groupId>
-    <artifactId>core.wcm.components.core</artifactId>
-    <version>2.0.0</version>
-    <scope>provided</scope>
-</dependency>
-<dependency>
-    <groupId>com.adobe.cq</groupId>
-    <artifactId>core.wcm.components.all</artifactId>
-    <type>zip</type>
-    <version>2.0.0</version>
-    <scope>provided</scope>
-</dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.core</artifactId>
+                <version>2.0.4</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.all</artifactId>
+                <type>zip</type>
+                <version>2.0.4</version>
+                <scope>provided</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -382,7 +388,7 @@
                                     <goal>pmd</goal>
                                     <goal>cpd</goal>
                                     <!-- build will fail on warnings -->
-                                    <goal>check</goal> 
+                                    <goal>check</goal>
                                 </goals>
                             </execution>
                         </executions>
